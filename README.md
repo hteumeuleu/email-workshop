@@ -54,5 +54,7 @@ This workshop is given with [Smashing Magazine](https://smashingconf.com/online-
 
 ### Live coding
 
+* Basic text formatting (h1, p, a)
+* Image styling
 * Button
 * Template
