@@ -44,9 +44,15 @@ This workshop is given with [Smashing Magazine](https://smashingconf.com/online-
 
 ### Email clients change your code
 
+* [SendTest.email](https://sendtest.email)
 * [Litmus guide to ban blue links on ios devices in email](https://www.litmus.com/blog/update-banning-blue-links-on-ios-devices-2/)
 * [email-bugs](https://github.com/hteumeuleu/email-bugs), bug tracker on GitHub
 
 ### Test
 
 * [Email on Acid](https://www.emailonacid.com), [Litmus](https://www.litmus.com), [Testi.at](https://testi.at)
+
+### Live coding
+
+* Button
+* Template
