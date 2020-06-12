@@ -52,9 +52,24 @@ This workshop is given with [Smashing Magazine](https://smashingconf.com/online-
 
 * [Email on Acid](https://www.emailonacid.com), [Litmus](https://www.litmus.com), [Testi.at](https://testi.at)
 
+### Common bugs
+
+* https://github.com/hteumeuleu/email-bugs/issues/9
+* https://github.com/hteumeuleu/email-bugs/issues/10
+* https://github.com/hteumeuleu/email-bugs/issues/16
+* https://github.com/hteumeuleu/email-bugs/issues/19
+* https://github.com/hteumeuleu/email-bugs/issues/21
+* https://github.com/hteumeuleu/email-bugs/issues/28
+* https://github.com/hteumeuleu/email-bugs/issues/41
+* https://github.com/hteumeuleu/email-bugs/issues/45
+* https://github.com/hteumeuleu/email-bugs/issues/56
+* https://github.com/hteumeuleu/email-bugs/issues/59
+* https://github.com/hteumeuleu/email-bugs/issues/61
+
 ### Live coding
 
 * Basic text formatting (h1, p, a)
 * Image styling
 * Button
+* Font Face in emails
 * Template
