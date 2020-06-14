@@ -1,0 +1,138 @@
+@font-face {
+	font-family: 'Mija';
+	font-weight: 400;
+	src: url('fonts/mija_regular-webfont.woff2');
+}
+
+@font-face {
+	font-family: 'Mija';
+	font-weight: 700;
+	src: url('fonts/mija_bold-webfont.woff2');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 2em;
+	scroll-snap-type: y mandatory;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	font-family: 'Mija', sans-serif;
+}
+
+h1 {
+	position: relative;
+	margin-bottom: 1rem;
+	font-size: 2.5rem;
+}
+
+a {
+	color: inherit;
+}
+
+li {
+	padding-top: 0.125em;
+	padding-bottom: 0.125em;
+	list-style-position: inside;
+}
+
+code {
+	padding: 0.125rem 0.25rem;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 0.25rem;
+	font-size: 85%;
+	line-height: 1;
+	font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+}
+
+aside,
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	scroll-snap-align: center;
+}
+
+section > div,
+aside > div {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 40rem;
+	padding: 3rem 1rem;
+	box-sizing: border-box;
+}
+
+aside {
+	background-color: #fff;
+}
+
+main {
+	color: #fff;
+	background-color: #282634;
+}
+
+.red {
+	background-color: #c7372a;
+}
+
+.blue {
+	background-color: #0168b8;
+}
+
+.purple {
+	background-color: rebeccapurple;
+}
+
+.green {
+	background-color: #19a972;
+}
+
+.orange {
+	background-color: #f4b165;
+}
+
+main h1 {
+	text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+section:nth-child(2n) {
+	background-color: rgba(0,0,0,.125);
+}
+
+.anchor {
+	position: absolute;
+	left: -3rem;
+	top: 0;
+	display: block;
+	width: 3rem;
+	text-align: center;
+	text-decoration: none;
+	opacity: 0;
+}
+
+h1:hover .anchor {
+	opacity: 1;
+}
+
+/* List links smooth transition */
+li {
+	cursor: default;
+	transition: opacity ease-in-out 0.3s;
+}
+
+ul:hover li {
+	opacity: 0.5;
+}
+
+ul li:hover {
+	opacity: 1;
+}

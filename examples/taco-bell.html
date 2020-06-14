@@ -1,0 +1,1106 @@
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html hola_ext_inject="disabled" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title></title>
+  <!--[if !mso]><!-- -->
+  <!--<![endif]-->
+  <style type="text/css">
+    @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+    @import url(https://fonts.googleapis.com/css?family=Muli);
+    /* Client-specific Styles */
+    body {
+      background: #FFFFFF;
+      width: 100% !important;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: Franklin Gothic Medium,
+        'Franklin Gothic Medium',
+        Futura Condensed Bold,
+        'Futura Condensed Bold',
+        'Arial Narrow',
+        Helvetica,
+        sans-serif;
+      font-stretch: condensed;
+    }
+    /* Prevent Webkit and Windows Mobile platforms from changing default font sizes.*/
+    .ExternalClass {
+      width: 100%;
+    } /* Force Hotmail to display emails at full width */
+    .ExternalClass * {
+      line-height: 100%;
+    }
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: 100%;
+    }
+    /* Forces Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */
+    .backgroundTable {
+      margin: 0;
+      padding: 0;
+      width: 100% !important;
+      line-height: 100% !important;
+    }
+    /* End reset */
+    
+    /* Some sensible defaults for images
+    		Bring inline: Yes. */
+    img {
+      outline: none;
+      text-decoration: none;
+      display: block;
+      -ms-interpolation-mode: bicubic;
+    }
+    a img {
+      border: none;
+    }
+    
+    /* Yahoo paragraph fix
+    		Bring inline: Yes. */
+    p {
+      margin: 1em 0;
+    }
+    
+    /* Outlook 07, 10 Padding issue fix
+    		Bring inline: No.*/
+    table td {
+      border-collapse: collapse;
+    }
+    
+    /* Remove spacing around Outlook 07, 10 tables
+    		Bring inline: Yes */
+    table {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+    .address a {
+      color: #000001 !important;
+    }
+    
+    .relative {
+      position: relative !important;
+    }
+    .fixed1 {
+      z-index: 300;
+    }
+    .bottom {
+      z-index: 100;
+      width: 100%;
+      margin: 0 auto;
+      position: absolute;
+    }
+    .top {
+      z-index: 500;
+      width: 100%;
+      margin: 0 auto;
+      position: absolute;
+    }
+    .top-elements {
+      z-index: 600 !important;
+    }
+    .middle-elements {
+      z-index: 500 !important;
+    }
+    .btm-elements {
+      z-index: 600 !important;
+    }
+    .bottom {
+      background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-bg.png')
+        no-repeat
+        top
+        center;
+      background-size: 100% auto;
+      z-index: 100;
+      width: 100%;
+      margin: 0 auto;
+      position: absolute;
+      height: 4489px !important;
+    }
+    .top {
+      background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-top.png')
+        no-repeat
+        top
+        center;
+      background-size: 100% auto;
+      z-index: 500;
+      width: 100%;
+      margin: 0 auto;
+      position: absolute;
+      height: 4489px !important;
+    }
+    .characters {
+      background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-characters.png')
+        no-repeat
+        top
+        center;
+      background-size: 100% auto;
+      z-index: 300;
+      width: 600px !important;
+      position: fixed !important;
+      top: 115px !important;
+      height: 4489px !important;
+    }
+    .wrapper {
+      height: 4489px !important;
+    }
+    body[yahoo] .cta {
+      width: auto !important;
+    }
+    
+    @media screen {
+      .fjalla {
+        font-family: 'Fjalla One',
+          Franklin Gothic Medium,
+          'Franklin Gothic Medium',
+          Futura Condensed Bold,
+          'Futura Condensed Bold',
+          'Arial Narrow',
+          Helvetica,
+          sans-serif !important;
+        font-weight: normal !important;
+        letter-spacing: normal !important;
+      }
+      .muli {
+        font-family: 'Muli', Helvetica, Arial, sans-serif !important;
+      }
+    }
+    /***************************************************
+    		****************************************************
+    		MOBILE TARGETING
+    		****************************************************
+    		***************************************************/
+    @media screen and (max-width: 480px), screen and (max-device-width: 480px) {
+      body[yahoo] {
+        width: 100% !important;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      body[yahoo] .deviceWidth {
+        width: 100% !important;
+        min-width: 320px !important;
+        height: auto !important;
+        padding: 0 !important;
+        float: none !important;
+      }
+      body[yahoo] .mobile-hide {
+        display: none !important;
+      }
+      body[yahoo] .mobile-txt {
+        padding: 0 15px !important;
+      }
+      body[yahoo] .center-img {
+        display: block !important;
+        float: none !important;
+        margin: 0 auto !important;
+        background-color: transparent;
+      }
+      body[yahoo] .preheader {
+        padding: 5px 25px !important;
+        text-align: center !important;
+      }
+      body[yahoo] .crunch-desc {
+        height: auto !important;
+        padding: 0 0 15px !important;
+      }
+      body[yahoo] .address {
+        padding: 15px !important;
+      }
+      body[yahoo] .cta {
+        width: auto !important;
+      }
+      .relative {
+        position: relative !important;
+      }
+      .hero {
+        background-size: 100% auto !important;
+        height: auto !important;
+      }
+      .android-characters {
+        width: 100% !important;
+        margin: -40px 0 0 !important;
+      }
+      .offer-headline {
+        font-size: 40px !important;
+        line-height: 42px !important;
+      }
+    }
+    @media only screen and (max-device-width: 360px) {
+      .fixed1 {
+        position: fixed !important;
+        top: 115px !important;
+        z-index: 300;
+        width: 100%;
+      }
+      .bottom {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-bg.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 100;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        height: 2692px !important;
+      }
+      .characters {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-characters.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 300;
+        width: 100% !important;
+        position: fixed !important;
+        top: 115px !important;
+        height: 2692px !important;
+      }
+      .top {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-top.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 500;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        height: 2692px !important;
+      }
+      .footer-bg {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/footer-bg-yellow.jpg')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 300;
+        width: 100%;
+        margin: 0 auto;
+        height: 0px !important;
+      }
+      body[yahoo] .wrapper {
+        height: 2692px !important;
+      }
+      body[yahoo] .iphone-hide {
+        display: none !important;
+      }
+    }
+    
+    @media only screen and (min-device-width: 361px) and (max-device-width: 411px) {
+      .fixed1 {
+        position: fixed !important;
+        top: 115px !important;
+        z-index: 300;
+        width: 100%;
+      }
+      .bottom {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-bg.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 100;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        height: 3074px !important;
+      }
+      .characters {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-characters.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 300;
+        width: 100% !important;
+        position: fixed !important;
+        top: 115px !important;
+        height: 3074px !important;
+      }
+      .top {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-top.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 500;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        height: 3074px !important;
+      }
+      .footer-bg {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/footer-bg-yellow.jpg')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 300;
+        width: 100%;
+        margin: 0 auto;
+        height: 0px !important;
+      }
+      body[yahoo] .wrapper {
+        height: 3074px !important;
+      }
+      body[yahoo] .iphone-hide {
+        display: none !important;
+      }
+    }
+    
+    @media only screen and (min-device-width: 412px) and (max-device-width: 435px) {
+      .fixed1 {
+        position: fixed !important;
+        top: 115px !important;
+        z-index: 300;
+        width: 100%;
+      }
+      .bottom {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-bg.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 100;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        height: 3254px !important;
+      }
+      .characters {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-characters.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 300;
+        width: 100% !important;
+        position: fixed !important;
+        top: 115px !important;
+        height: 3254px !important;
+      }
+      .top {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-top.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 500;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        height: 3254px !important;
+      }
+      .footer-bg {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/footer-bg-yellow.jpg')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 300;
+        width: 100%;
+        margin: 0 auto;
+        height: 0px !important;
+      }
+      body[yahoo] .wrapper {
+        height: 3254px !important;
+      }
+      body[yahoo] .iphone-hide {
+        display: none !important;
+      }
+    }
+    
+    /* ----------- iPhone 4 and 4S ----------- */
+    @media only screen and (device-width: 320px) and (device-height: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+      .fixed1 {
+        position: fixed !important;
+        top: 115px !important;
+        z-index: 300;
+        width: 100%;
+      }
+      .bottom {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-bg.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 100;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        height: 2392px !important;
+      }
+      .characters {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-characters.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 300;
+        width: 100% !important;
+        position: fixed !important;
+        top: 115px !important;
+        height: 2392px !important;
+      }
+      .top {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-top.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 500;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        height: 2392px !important;
+      }
+      .footer-bg {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/footer-bg-yellow.jpg')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 300;
+        width: 100%;
+        margin: 0 auto;
+        height: 0px !important;
+      }
+      body[yahoo] .wrapper {
+        height: 2392px !important;
+      }
+      body[yahoo] .iphone-hide {
+        display: none !important;
+      }
+    }
+    
+    /* ----------- iPhone 5 and 5S ----------- */
+    @media only screen and (device-width: 320px) and (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+      .fixed1 {
+        position: fixed !important;
+        top: 115px !important;
+        z-index: 300;
+        width: 100%;
+      }
+      .bottom {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-bg.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 100;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        height: 2392px !important;
+      }
+      .characters {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-characters.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 300;
+        width: 100% !important;
+        position: fixed !important;
+        top: 115px !important;
+        height: 2392px !important;
+      }
+      .top {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-top.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 500;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        height: 2392px !important;
+      }
+      .footer-bg {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/footer-bg-yellow.jpg')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 300;
+        width: 100%;
+        margin: 0 auto;
+        height: 0px !important;
+      }
+      body[yahoo] .wrapper {
+        height: 2392px !important;
+      }
+      body[yahoo] .iphone-hide {
+        display: none !important;
+      }
+    }
+    
+    /* ----------- iPhone 6 ----------- */
+    @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+      .fixed1 {
+        position: fixed !important;
+        top: 115px !important;
+        z-index: 300;
+        width: 100%;
+      }
+      .bottom {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-bg.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 100;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        height: 2804px !important;
+      }
+      .characters {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-characters.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 300;
+        width: 100% !important;
+        position: fixed !important;
+        top: 115px !important;
+        height: 2804px !important;
+      }
+      .top {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-top.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 500;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        height: 2804px !important;
+      }
+      .footer-bg {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/footer-bg-yellow.jpg')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 300;
+        width: 100%;
+        margin: 0 auto;
+        height: 0px !important;
+      }
+      body[yahoo] .wrapper {
+        height: 2804px !important;
+      }
+      body[yahoo] .iphone-hide {
+        display: none !important;
+      }
+    }
+    
+    /* ----------- iPhone 6+ ----------- */
+    @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+      .fixed1 {
+        position: fixed !important;
+        top: 115px !important;
+        z-index: 300;
+        width: 100%;
+      }
+      .bottom {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-bg.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 100;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        height: 3095px !important;
+      }
+      .characters {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-characters.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 300;
+        width: 100% !important;
+        position: fixed !important;
+        top: 115px !important;
+        height: 3095px !important;
+      }
+      .top {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/ill-top.png')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 500;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        height: 3095px !important;
+      }
+      .footer-bg {
+        background: url('https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/footer-bg-yellow.jpg')
+          no-repeat
+          top
+          center;
+        background-size: 100% auto;
+        z-index: 300;
+        width: 100%;
+        margin: 0 auto;
+        height: 0px !important;
+      }
+      body[yahoo] .wrapper {
+        height: 3095px !important;
+      }
+      body[yahoo] .iphone-hide {
+        display: none !important;
+      }
+    }
+  </style>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</head>
+
+<body style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;padding: 0;width: 100%;" yahoo="fix">
+  <table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0 auto;padding: 0;line-height: 100%;" width="100%">
+    <tbody>
+      <tr>
+        <td valign="top">
+          <table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" class="top-elements" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0 auto;padding: 0;line-height: 100%; background:#FFFFFF;z-index:600;position:relative;"
+            width="100%">
+            <tbody>
+              <tr>
+                <td valign="top">
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" class="deviceWidth" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0 auto;padding: 0;line-height: 100%;" width="600">
+                    <tbody>
+                      <tr>
+                        <td valign="top"><img height="10" src="https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/012516_crunchwrap/spacer.gif" style="display: block; outline:none; text-decoration:none; border:none;" width="10" alt="" /></td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <table align="center" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                              <tr>
+                                <td class="mobile-hide" valign="top" width="25">&nbsp;</td>
+                                <td class="deviceWidth" valign="top">
+                                  <table align="left" cellpadding="0" cellspacing="0" class="deviceWidth" width="275">
+                                    <tbody>
+                                      <tr>
+                                        <td class="preheader" style="font-family:Arial,Helvetica, sans-serif; font-size:10px; line-height:12px; color:#000000; text-align:left;" valign="middle">What happens when you let breakfast into your life?</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                                <td class="mobile-hide" valign="top" width="25">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top"><img height="10" src="https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/012516_crunchwrap/spacer.gif" style="display: block; outline:none; text-decoration:none; border:none;" width="10" alt="" /></td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <table align="center" bgcolor="#17001d" border="0" cellpadding="0" cellspacing="0" class="deviceWidth" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0 auto;padding: 0;line-height: 100%; min-width:600px;" width="600">
+                            <tbody>
+                              <tr>
+                                <td class="mobile-hide" valign="top" width="138">
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td bgcolor="#FFFFFF" height="7" valign="top"><img height="7" src="https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/012516_crunchwrap/spacer.gif" style="display: block; outline:none; text-decoration:none; border:none;" width="138" alt="" /></td>
+                                      </tr>
+                                      <tr>
+                                        <td bgcolor="#651395" height="31" valign="top">&nbsp;</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                                <td class="deviceWidth" valign="top" width="323">
+                                  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td bgcolor="#8a1ec8" class="fjalla" height="31" style="color:#FFFFFF; font-size:16px; line-height:18px; text-align:center;font-family: Franklin Gothic Medium, 'Franklin Gothic Medium', Futura Condensed Bold, 'Futura Condensed Bold', 'Arial Narrow', Helvetica, sans-serif; font-stretch: condensed;"
+                                          valign="middle">
+                                          <a href="http://tacobell.mkt7706.com/breakfastjourneyA/LPT.url?kn=456531&vs=M2RlMjNiYzItMTA4Mi00NzlhLTg0MDMtNzY0MWM0YjViYTk3OzA6MjUwNDkzMTc6MjQwNjA1OTcwOTY0Ojc2Mzc5MzMzMjo3NjM3OTMzMzI7S0" style="color:#FFFFFF; text-decoration:none;"
+                                            target="_blank" xthyperlink="456531" xtlinkname="httpswwwtacobellcomtacobelloffersutm_mediumemailutm_sourcesilverpoputm_campaignmarch_dollar_breakfastutm_contenthero_textlink_lpautm_termlpa" name="httpswwwtacobellcomtacobelloffersutm_mediumemailutm_sourcesilverpoputm_campaignmarch_dollar_breakfastutm_contenthero_textlink_lpautm_termlpa"><span style="color:#FFFFFF;">NOW THROUGH 4/30</span></a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td valign="top">
+                                          <a href="http://tacobell.mkt7706.com/breakfastjourneyA/LPT.url?kn=456532&vs=M2RlMjNiYzItMTA4Mi00NzlhLTg0MDMtNzY0MWM0YjViYTk3OzA6MjUwNDkzMTc6MjQwNjA1OTcwOTY0Ojc2Mzc5MzMzMjo3NjM3OTMzMzI7S0" target="_blank" xthyperlink="456532"
+                                            xtlinkname="httpswwwtacobellcomtacobelloffersutm_mediumemailutm_sourcesilverpoputm_campaignmarch_dollar_breakfastutm_contenthero_img_lpautm_termlpa" name="httpswwwtacobellcomtacobelloffersutm_mediumemailutm_sourcesilverpoputm_campaignmarch_dollar_breakfastutm_contenthero_img_lpautm_termlpa"><img class="deviceWidth" src="https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/march-offer2.jpg" style="display: block; outline:none; text-decoration:none; border:none;" width="322" alt=""
+                                            /></a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td height="28" valign="top">&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td class="fjalla offer-headline" style="color:#FFFFFF; font-size:45px; line-height:48px; text-align:center;font-family: Franklin Gothic Medium, 'Franklin Gothic Medium', Futura Condensed Bold, 'Futura Condensed Bold', 'Arial Narrow', Helvetica, sans-serif; font-stretch: condensed;"
+                                          valign="middle">TAKE $2 OFF<br>YOUR $10+ ORDER<span style="font-size: 39px; line-height: 40px;"><sup>*</sup></span></td>
+                                      </tr>
+                                      <tr>
+                                        <td valign="top"><img height="15" src="https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/012516_crunchwrap/spacer.gif" style="display: block; outline:none; text-decoration:none; border:none;" width="10" alt="" /></td>
+                                      </tr>
+                                      <tr>
+                                        <td valign="top">
+                                          <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                              <tr>
+                                                <td class="mobile-hide" valign="top" width="80">&nbsp;</td>
+                                                <td valign="top">
+                                                  <table align="center" bgcolor="#ff00cc" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td valign="top" width="15">&nbsp;</td>
+                                                        <td align="left" class="fjalla cta" height="44" style="font-family: Franklin Gothic Medium, 'Franklin Gothic Medium', Futura Condensed Bold, 'Futura Condensed Bold', 'Arial Narrow', Helvetica, sans-serif; font-stretch: condensed;font-size:21px;line-height: 21px;color: #FFFFFF;text-align:center;font-weight:bold;"
+                                                          valign="middle">
+                                                          <a href="http://tacobell.mkt7706.com/breakfastjourneyA/LPT.url?kn=456533&vs=M2RlMjNiYzItMTA4Mi00NzlhLTg0MDMtNzY0MWM0YjViYTk3OzA6MjUwNDkzMTc6MjQwNjA1OTcwOTY0Ojc2Mzc5MzMzMjo3NjM3OTMzMzI7S0" style="color:#FFFFFF;text-decoration:none;"
+                                                            target="_blank" xthyperlink="456533" xtlinkname="httpswwwtacobellcomtacobelloffersutm_mediumemailutm_sourcesilverpoputm_campaignmarch_dollar_breakfastutm_contentcta_1_lpautm_termlpa" name="httpswwwtacobellcomtacobelloffersutm_mediumemailutm_sourcesilverpoputm_campaignmarch_dollar_breakfastutm_contentcta_1_lpautm_termlpa"><span style="color:#FFFFFF">ORDER NOW</span></a>
+                                                        </td>
+                                                        <td valign="top" width="15">&nbsp;</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                                <td class="mobile-hide" valign="top" width="80">&nbsp;</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td valign="top"><img height="15" src="https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/012516_crunchwrap/spacer.gif" style="display: block; outline:none; text-decoration:none; border:none;" width="10" alt="" /></td>
+                                      </tr>
+                                      <tr>
+                                        <td class="muli" style="font-family:Arial,Helvetica, sans-serif; font-size:14px; line-height:18px; color:#FFFFFF; text-align:center;" valign="top">ONLY ONLINE OR IN THE APP</td>
+                                      </tr>
+                                      <tr>
+                                        <td height="40" valign="top">&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td class="mobile-hide" valign="top"><img height="20" src="https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/012516_crunchwrap/spacer.gif" style="display: block; outline:none; text-decoration:none; border:none;" width="10" alt="" /></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                                <td class="mobile-hide" valign="top" width="139">
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td bgcolor="#FFFFFF" height="7" valign="top"><img height="7" src="https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/012516_crunchwrap/spacer.gif" style="display: block; outline:none; text-decoration:none; border:none;" width="139" alt="" /></td>
+                                      </tr>
+                                      <tr>
+                                        <td bgcolor="#651395" height="31" valign="top">&nbsp;</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <table align="center" bgcolor="#ffec19" border="0" cellpadding="0" cellspacing="0" class="deviceWidth" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0 auto;padding: 0;line-height: 100%; min-width:600px;" width="600">
+                            <tbody>
+                              <tr>
+                                <td valign="top">
+                                  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td height="25" valign="top">&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td class="mobile-hide" height="20" valign="top">&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td valign="top">
+                                          <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td class="mobile-hide" valign="top" width="140">&nbsp;</td>
+                                                <td valign="top">
+                                                  <a href="http://tacobell.mkt7706.com/breakfastjourneyA/LPT.url?kn=456534&vs=M2RlMjNiYzItMTA4Mi00NzlhLTg0MDMtNzY0MWM0YjViYTk3OzA6MjUwNDkzMTc6MjQwNjA1OTcwOTY0Ojc2Mzc5MzMzMjo3NjM3OTMzMzI7S0" target="_blank"
+                                                    xthyperlink="456534" xtlinkname="httpswwwtacobellcomfoodbreakfastutm_mediumemailutm_sourcesilverpoputm_campaignmarch_dollar_breakfastutm_contentimg_2_lpautm_termlpa" name="httpswwwtacobellcomfoodbreakfastutm_mediumemailutm_sourcesilverpoputm_campaignmarch_dollar_breakfastutm_contentimg_2_lpautm_termlpa"><img class="center-img" src="https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/2016_march/dollar-menu.jpg" style="display: block; outline:none; text-decoration:none; border:none;" width="320"
+                                                      alt="" /></a>
+                                                </td>
+                                                <td class="mobile-hide" valign="top" width="140">&nbsp;</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td class="fjalla offer-headline" style="color:#000000; font-size:20px; line-height:24px; text-align:center;font-family: Franklin Gothic Medium, 'Franklin Gothic Medium', Futura Condensed Bold, 'Futura Condensed Bold', 'Arial Narrow', Helvetica, sans-serif; font-stretch: condensed;"
+                                          valign="middle">Breakfast from our $1 Morning Value Menu <br class="mobile-hide" /> might change your life.</td>
+                                      </tr>
+                                      <tr>
+                                        <td valign="top"><img height="20" src="https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/012516_crunchwrap/spacer.gif" style="display: block; outline:none; text-decoration:none; border:none;" width="10" alt="" /></td>
+                                      </tr>
+                                      <tr>
+                                        <td class="muli mobile-txt" style="font-family:Arial,Helvetica, sans-serif; font-size:14px; line-height:18px; color:#000000; text-align:center;" valign="top">10 breakfast items for $1 each.**</td>
+                                      </tr>
+                                      <tr>
+                                        <td valign="top"><img height="15" src="https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/012516_crunchwrap/spacer.gif" style="display: block; outline:none; text-decoration:none; border:none;" width="10" alt="" /></td>
+                                      </tr>
+                                      <tr>
+                                        <td valign="top">
+                                          <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                              <tr>
+                                                <td class="mobile-hide" valign="top" width="160">&nbsp;</td>
+                                                <td valign="top">
+                                                  <table align="center" bgcolor="#ff00cc" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td valign="top" width="15">&nbsp;</td>
+                                                        <td align="left" class="fjalla cta" height="44" style="font-family: Franklin Gothic Medium, 'Franklin Gothic Medium', Futura Condensed Bold, 'Futura Condensed Bold', 'Arial Narrow', Helvetica, sans-serif; font-stretch: condensed;font-size:21px;line-height: 21px;color: #FFFFFF;text-align:center;font-weight:bold;"
+                                                          valign="middle">
+                                                          <a href="http://tacobell.mkt7706.com/breakfastjourneyA/LPT.url?kn=456535&vs=M2RlMjNiYzItMTA4Mi00NzlhLTg0MDMtNzY0MWM0YjViYTk3OzA6MjUwNDkzMTc6MjQwNjA1OTcwOTY0Ojc2Mzc5MzMzMjo3NjM3OTMzMzI7S0" style="color:#FFFFFF;text-decoration:none;"
+                                                            target="_blank" xthyperlink="456535" xtlinkname="httpswwwtacobellcomfoodbreakfastutm_mediumemailutm_sourcesilverpoputm_campaignmarch_dollar_breakfastutm_contentcta_2_lpautm_termlpa" name="httpswwwtacobellcomfoodbreakfastutm_mediumemailutm_sourcesilverpoputm_campaignmarch_dollar_breakfastutm_contentcta_2_lpautm_termlpa"><span style="color:#FFFFFF">DO BREAKFAST RIGHT</span></a>
+                                                        </td>
+                                                        <td valign="top" width="15">&nbsp;</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                                <td class="mobile-hide" valign="top" width="160">&nbsp;</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td valign="top"><img height="55" src="https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/012516_crunchwrap/spacer.gif" style="display: block; outline:none; text-decoration:none; border:none;" width="10" alt="" /></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" class="middle-elements" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0 auto;padding: 0;line-height: 100%; background:#FFFFFF; z-index:500;position:relative;"
+            width="100%">
+            <tbody>
+              <tr>
+                <td valign="top">
+                  <table align="center" bgcolor="#17001d" border="0" cellpadding="0" cellspacing="0" class="deviceWidth" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0 auto;padding: 0;line-height: 100%; min-width:600px;" width="600">
+                    <tbody>
+                      <tr>
+                        <td valign="top">
+                          <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                              <tr>
+                                <td valign="top" class="wrapper">
+                                  <div class="relative">
+                                    <div class="bottom">&nbsp;</div>
+                                    <div class="characters">&nbsp;</div>
+                                    <div class="top">&nbsp;</div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" class="btm-elements" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0 auto;padding: 0;line-height: 100%; background:#FFFFFF;z-index:600;position:relative;"
+            width="100%">
+            <tbody>
+              <tr>
+                <td valign="top">
+                  <table align="center" bgcolor="#ffec19" border="0" cellpadding="0" cellspacing="0" class="deviceWidth" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0 auto;padding: 0;line-height: 100%; min-width:600px;" width="600">
+                    <tbody>
+                      <tr>
+                        <td height="25" valign="top">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="mobile-hide" height="25" valign="top">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="fjalla offer-headline" style="color:#000000; font-size:45px; line-height:48px; text-align:center;font-family: Franklin Gothic Medium, 'Franklin Gothic Medium', Futura Condensed Bold, 'Futura Condensed Bold', 'Arial Narrow', Helvetica, sans-serif; font-stretch: condensed;"
+                          valign="middle">MAKE TODAY<br /> GREAT
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top"><img height="15" src="https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/012516_crunchwrap/spacer.gif" style="display: block; outline:none; text-decoration:none; border:none;" width="10" alt="" /></td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <table align="center" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="mobile-hide" valign="top" width="170">&nbsp;</td>
+                                <td valign="top">
+                                  <table align="center" bgcolor="#ff00cc" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" width="15">&nbsp;</td>
+                                        <td align="left" class="fjalla cta" height="44" style="font-family: Franklin Gothic Medium, 'Franklin Gothic Medium', Futura Condensed Bold, 'Futura Condensed Bold', 'Arial Narrow', Helvetica, sans-serif; font-stretch: condensed;font-size:21px;line-height: 21px;color: #FFFFFF;text-align:center;font-weight:bold;"
+                                          valign="middle">
+                                          <a href="http://tacobell.mkt7706.com/breakfastjourneyA/LPT.url?kn=456536&vs=M2RlMjNiYzItMTA4Mi00NzlhLTg0MDMtNzY0MWM0YjViYTk3OzA6MjUwNDkzMTc6MjQwNjA1OTcwOTY0Ojc2Mzc5MzMzMjo3NjM3OTMzMzI7S0" style="color:#FFFFFF;text-decoration:none;"
+                                            target="_blank" xthyperlink="456536" xtlinkname="httpswwwtacobellcomfoodbreakfastutm_mediumemailutm_sourcesilverpoputm_campaignmarch_dollar_breakfastutm_contentcta_3_lpautm_termlpa" name="httpswwwtacobellcomfoodbreakfastutm_mediumemailutm_sourcesilverpoputm_campaignmarch_dollar_breakfastutm_contentcta_3_lpautm_termlpa"><span style="color:#FFFFFF">ORDER BREAKFAST</span></a>
+                                        </td>
+                                        <td valign="top" width="15">&nbsp;</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                                <td class="mobile-hide" valign="top" width="170">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td valign="top"><img height="15" src="https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/012516_crunchwrap/spacer.gif" style="display: block; outline:none; text-decoration:none; border:none;" width="10" alt="" /></td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <table align="center" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="mobile-hide" valign="top" width="100">&nbsp;</td>
+                                <td valign="top">
+                                  <table align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" width="15">&nbsp;</td>
+                                        <td align="left" class="fjalla cta" height="44" style="font-family: Franklin Gothic Medium, 'Franklin Gothic Medium', Futura Condensed Bold, 'Futura Condensed Bold', 'Arial Narrow', Helvetica, sans-serif; font-stretch: condensed;font-size:21px;line-height: 21px;color: #FFFFFF;text-align:center;font-weight:bold;"
+                                          valign="middle">
+                                          <a href="http://tacobell.mkt7706.com/breakfastjourneyA/LPT.url?kn=456537&vs=M2RlMjNiYzItMTA4Mi00NzlhLTg0MDMtNzY0MWM0YjViYTk3OzA6MjUwNDkzMTc6MjQwNjA1OTcwOTY0Ojc2Mzc5MzMzMjo3NjM3OTMzMzI7S0" style="color:#FFFFFF;text-decoration:none;"
+                                            target="_blank" xthyperlink="456537" xtlinkname="httpstwittercomhomestatusNo20breakfast20like2023TacoBellBreakfast20WhoE28099s20with20me20http3Abitly1QSQadu" name="httpstwittercomhomestatusNo20breakfast20like2023TacoBellBreakfast20WhoE28099s20with20me20http3Abitly1QSQadu"><span style="color:#FFFFFF">SPREAD THE BREAKFAST WORD</span></a>
+                                        </td>
+                                        <td valign="top" width="15">&nbsp;</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                                <td class="mobile-hide" valign="top" width="100">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="25" valign="top">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="mobile-hide" height="25" valign="top">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="footer-bg" valign="top">&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td valign="top">
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" class="deviceWidth" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0 auto;padding: 0;line-height: 100%; min-width:600px;" width="600">
+                    <tbody>
+                      <tr>
+                        <td height="30" valign="top">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td valign="top">
+                          <table align="center" border="0" cellpadding="0" cellspacing="0" class="deviceWidth" width="100%">
+                            <tbody>
+                              <tr>
+                                <td class="mobile-hide" valign="top" width="50">&nbsp;</td>
+                                <td valign="top">
+                                  <table align="center" border="0" cellpadding="0" cellspacing="0" class="deviceWidth" width="500">
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top">
+                                          <table align="left" cellpadding="0" cellspacing="0" class="deviceWidth" width="79">
+                                            <tbody>
+                                              <tr>
+                                                <td valign="top">
+                                                  <a href="http://tacobell.mkt7706.com/breakfastjourneyA/LPT.url?kn=456538&vs=M2RlMjNiYzItMTA4Mi00NzlhLTg0MDMtNzY0MWM0YjViYTk3OzA6MjUwNDkzMTc6MjQwNjA1OTcwOTY0Ojc2Mzc5MzMzMjo3NjM3OTMzMzI7S0" target="_blank"
+                                                    xthyperlink="456538" xtlinkname="httpswwwtacobellcomutm_mediumemailutm_sourcesilverpoputm_campaignmarch_dollar_breakfastutm_contentfooter_logo_lpautm_termlpa" name="httpswwwtacobellcomutm_mediumemailutm_sourcesilverpoputm_campaignmarch_dollar_breakfastutm_contentfooter_logo_lpautm_termlpa"><img alt="Taco Bell" class="center-img" src="https://eroi-s3.s3.amazonaws.com/emailassets/clients/tacobell/012516_crunchwrap/tb_logo.jpg" style="display: block; outline:none; text-decoration:none; border:none; color:#000000"
+                                                      width="79" /></a>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                          <!--[if mso]></td>
+		  												<td width="21"></td>
+		  												<td><![endif]-->
+                                          <table align="right" cellpadding="0" cellspacing="0" class="deviceWidth" width="400">
+                                            <tbody>
+                                              <tr>
+                                                <td class="address" style="font-family:Arial,Helvetica, sans-serif; font-size:10px; line-height:12px; color:#000000;" valign="top">*$2 off discount applies to purchases of $10 or more. Purchase required. Offer expires at 11:59 p.m. PST on 4/30/2016. Available at participating locations for mobile or web orders only. Check your local
+                                                  Taco Bell store for availability. Offer redeemable once per day. May not be redeemed with other offers. Void if copied, transferred, reproduced or where prohibited. Cash redemption value 1/20 cent. Subject
+                                                  to availability; no substitutions. Tax extra. Offers may vary. Internet distribution strictly prohibited.<br />
+                                                  <br /> You get emails from Taco Bell because you love tacos. View our <a href="http://tacobell.mkt7706.com/breakfastjourneyA/LPT.url?kn=456539&vs=M2RlMjNiYzItMTA4Mi00NzlhLTg0MDMtNzY0MWM0YjViYTk3OzA6MjUwNDkzMTc6MjQwNjA1OTcwOTY0Ojc2Mzc5MzMzMjo3NjM3OTMzMzI7S0"
+                                                    style="color:#000000" target="_blank" xthyperlink="456539" xtlinkname="httpswwwtacobellcomlegalnoticesprivacypolicyutm_mediumemailutm_sourcesilverpoputm_campaignmarch_dollar_breakfastutm_contentprivacyutm_termlpa"
+                                                    name="httpswwwtacobellcomlegalnoticesprivacypolicyutm_mediumemailutm_sourcesilverpoputm_campaignmarch_dollar_breakfastutm_contentprivacyutm_termlpa"><span style="color:#000000;">privacy policy</span></a>.</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                                <td class="mobile-hide" valign="top" width="50">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="30" valign="top">&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>

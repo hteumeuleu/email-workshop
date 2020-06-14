@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Day 1 - Building Modern HTML Emails Without Going Mad - Smashing Magazine Workshop</title>
+	<link rel="stylesheet" type="text/css" href="assets/workshop.css" />
+	<link rel="icon" type="image/png" href="assets/favicon.png" />
+</head>
+<body>
+	<main class="blue">
+		<section>
+			<div>
+				<h1>Day 1</h1>
+				<p>Expectations. And of course, Outlook.</p>
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>HTML emails are not stuck in&nbsp;the&nbsp;1990s.</h1>
+				<ul>
+					<li><a href="https://www.caniemail.com">Can I email&hellip;</a></li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>Everything is possible!</h1>
+				<ul>
+					<li><a href="https://files.reallygoodemails.com/emailHtml/limited-edition-sci-fidelity-art-show">Super Team Deluxe CSS gradient</a></li>
+					<li><a href="examples/uber.html">Uber receipt</a></li>
+					<li><a href="examples/lego.html">LEGO interactive email</a></li>
+					<li><a href="https://files.reallygoodemails.com/emailHtml/our-new-1-breakfast-is-a-no-brainer">Taco Bell interactive email</a></li>
+					<li><a href="http://emailpreview.co.uk/chs/super-mail-quest/">Super Mail Quest</a></li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>Nothing works everywhere.</h1>
+				<ul>
+					<li><a href="https://caniuse.com/#feat=border-radius">Can I use… <code>border-radius</code></a></li>
+					<li><a href="https://www.caniemail.com/features/css-border-radius/">Can I email… <code>border-radius</code></a></li>
+					<li><a href="http://dowebsitesneedtolookexactlythesameineverybrowser.com">DoWebsitesNeedToLookExactlyTheSameInEveryBrowser.com</a></li>
+					<li><a href="http://doemailshavetolookthesameineveryclient.com/">DoEmailsHaveToLookTheSameInEveryClient.com</a></li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>Progressive enhancement and&nbsp;graceful degradation.</h1>
+				<ul>
+					<li><a href="assets/images/graceful-degradation-progressive-enhancement.jpg">escalator vs. stairlift</a></li>
+					<li>Define what's acceptable for your brand: <a href="https://www.slideshare.net/emgerard/mettez-de-lordre-dans-le-chaos-de-votre-production-emailing-grce-au-design-system/52">example by Emmanuel Gérard</a></li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>Email clients change your code.</h1>
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>Email clients add links.</h1>
+				<ul>
+					<li><a href="https://sendtest.email">sendtest.email</a></li>
+					<li><a href="https://codepen.io/hteumeuleu/pres/JjGKvvN?editors=1000">Example on CodePen</a> (in Apple Mail, Outlook.com and Gmail mobile)</li>
+					<li><a href="https://www.litmus.com/blog/update-banning-blue-links-on-ios-devices-2/">Litmus guide to ban blue links on ios devices in email</a></li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>Email clients remove styles&nbsp;or&nbsp;HTML.</h1>
+				<ul>
+					<li><a href="#TODO">Example on CodePen</a> TODO</li>
+				</ul>
+* [Yahoo Android removes the first `<head>` tag](https://github.com/hteumeuleu/email-bugs/issues/28)
+* [Yahoo converts the `height` property to `min-height`](https://github.com/hteumeuleu/email-bugs/issues/9)
+* [Outlook.com strip `<a>` tags with empty or invalid href attributes](https://github.com/hteumeuleu/email-bugs/issues/10)
+* [Gmail and Outlook.com remove styles that include special characters](https://github.com/hteumeuleu/email-bugs/issues/19)
+
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>Email clients rename classes&nbsp;or&nbsp;ids.</h1>
+				<ul>
+					<li><a href="#TODO">Example on CodePen</a> TODO</li>
+				</ul>
+* [Outlook.com only prefixes first selector in a chain of selectors](https://github.com/hteumeuleu/email-bugs/issues/61)
+
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>Email clients have their own styles and features.</h1>
+				<ul>
+					<li><a href="#TODO">Example on CodePen</a> TODO</li>
+					<li><a href="https://github.com/hteumeuleu/email-bugs/issues/59">Outlook.com adds "Joyful Animations"</a></li>
+					<li><a href="https://github.com/hteumeuleu/email-bugs/issues/41">Gmail clips emails after 102Kb</a> (Use <a href="https://emailcomb.com/dark">EmailComb</a>!)</li>
+					<li><a href="https://github.com/hteumeuleu/email-bugs/issues/41">Gmail removes <code>&lt;style&gt;</code> tags in non clipped view</a></li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>And then there’s <span style="font-family:Comic Sans MS, sans-serif;">Outlook</span>.</h1>
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>Outlook uses Word's rendering&nbsp;engine.</h1>
+				Graph
+				Microsoft doc
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>Conditional comments to&nbsp;the&nbsp;rescue</h1>
+				Microsoft doc
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1><code>mso-</code> properties.</h1>
+				Stig article
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>Rendering at 120dpi</h1>
+				Stig article
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>VML</h1>
+				Stig article
+			</div>
+		</section>
+	</main>
+</body>
+</html>
