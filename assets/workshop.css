@@ -100,6 +100,11 @@ main {
 	background-color: #f4b165;
 }
 
+.white {
+	color: #000;
+	background-color: #fff;
+}
+
 main h1 {
 	text-shadow: 1px 1px 1px rgba(0,0,0,.25);
 }

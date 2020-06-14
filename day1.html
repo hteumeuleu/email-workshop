@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Day 1 - Building Modern HTML Emails Without Going Mad - Smashing Magazine Workshop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="assets/workshop.css" />
 	<link rel="icon" type="image/png" href="assets/favicon.png" />
 </head>
@@ -74,12 +75,11 @@
 				<h1>Email clients remove styles&nbsp;or&nbsp;HTML.</h1>
 				<ul>
 					<li><a href="#TODO">Example on CodePen</a> TODO</li>
+					<li><a href="https://github.com/hteumeuleu/email-bugs/issues/28">Yahoo Android removes the first <code>&lt;head&gt;</code> tag</a></li>
+					<li><a href="https://github.com/hteumeuleu/email-bugs/issues/9">Yahoo converts the <code>height</code> property to <code>min-height</code></a> TODO</li>
+					<li><a href="https://github.com/hteumeuleu/email-bugs/issues/10">Outlook.com strip <code>&lt;a&gt;</code> tags with empty or invalid <code>href</code> attributes</a></li>
+					<li><a href="https://github.com/hteumeuleu/email-bugs/issues/19">Gmail remove styles that include special characters</a></li>
 				</ul>
-* [Yahoo Android removes the first `<head>` tag](https://github.com/hteumeuleu/email-bugs/issues/28)
-* [Yahoo converts the `height` property to `min-height`](https://github.com/hteumeuleu/email-bugs/issues/9)
-* [Outlook.com strip `<a>` tags with empty or invalid href attributes](https://github.com/hteumeuleu/email-bugs/issues/10)
-* [Gmail and Outlook.com remove styles that include special characters](https://github.com/hteumeuleu/email-bugs/issues/19)
-
 			</div>
 		</section>
 		<section>
@@ -87,9 +87,9 @@
 				<h1>Email clients rename classes&nbsp;or&nbsp;ids.</h1>
 				<ul>
 					<li><a href="#TODO">Example on CodePen</a> TODO</li>
+					<li><a href="https://github.com/hteumeuleu/email-bugs/issues/25">Yahoo will ignore embedded styles preceded by a comment</a></li>
+					<li><a href="https://github.com/hteumeuleu/email-bugs/issues/61">Outlook.com only prefixes first selector in a chain of selectors</a></li>
 				</ul>
-* [Outlook.com only prefixes first selector in a chain of selectors](https://github.com/hteumeuleu/email-bugs/issues/61)
-
 			</div>
 		</section>
 		<section>
@@ -98,12 +98,13 @@
 				<ul>
 					<li><a href="#TODO">Example on CodePen</a> TODO</li>
 					<li><a href="https://github.com/hteumeuleu/email-bugs/issues/59">Outlook.com adds "Joyful Animations"</a></li>
-					<li><a href="https://github.com/hteumeuleu/email-bugs/issues/41">Gmail clips emails after 102Kb</a> (Use <a href="https://emailcomb.com/dark">EmailComb</a>!)</li>
+					<li><a href="https://github.com/hteumeuleu/email-bugs/issues/41">Gmail clips emails after 102Kb</a></li>
 					<li><a href="https://github.com/hteumeuleu/email-bugs/issues/41">Gmail removes <code>&lt;style&gt;</code> tags in non clipped view</a></li>
+					<li><a href="https://emailcomb.com/dark">EmailComb</a> to remove unused CSS from email templates</li>
 				</ul>
 			</div>
 		</section>
-		<section>
+		<section class="white">
 			<div>
 				<h1>And then there’s <span style="font-family:Comic Sans MS, sans-serif;">Outlook</span>.</h1>
 			</div>
@@ -111,34 +112,67 @@
 		<section>
 			<div>
 				<h1>Outlook uses Word's rendering&nbsp;engine.</h1>
-				Graph
-				Microsoft doc
+				<ul>
+					<li><a href="https://docs.microsoft.com/en-us/previous-versions/office/developer/office-2007/aa338201(v=office.12)?redirectedfrom=MSDN">Word 2007 HTML and CSS Rendering Capabilities in Outlook 2007</a>, Microsoft</li>
+					<li><a href="assets/images/word-rendering.png">CSS support in Outlook 2007-2019 diagram</a></li>
+				</ul>
 			</div>
 		</section>
 		<section>
 			<div>
-				<h1>Conditional comments to&nbsp;the&nbsp;rescue</h1>
-				Microsoft doc
+				<h1>Conditional comments</h1>
+				<ul>
+					<li><a href="https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537512(v%3dvs.85)">About conditional comments</a>, Microsoft</li>
+				</ul>
 			</div>
 		</section>
 		<section>
 			<div>
-				<h1><code>mso-</code> properties.</h1>
-				Stig article
+				<h1><code>mso-</code> properties</h1>
+				<ul>
+					<li><a href="https://cm.engineering/fixing-bugs-with-outlook-specific-css-f4b8ae5be4f4">Fixing bugs with Outlook specific CSS</a>, Stig Morten Myre</li>
+					<li><a href="https://stigmortenmyre.no/mso/html/concepts/ofconstyletable.htm">Style attributes reference</a>, Microsoft</li>
+				</ul>
 			</div>
 		</section>
 		<section>
 			<div>
 				<h1>Rendering at 120dpi</h1>
-				Stig article
+				<ul>
+					<li><a href="https://www.courtneyfantinato.com/correcting-outlook-dpi-scaling-issues/">Correcting Outlook DPI Scaling Issues</a>, Courtney Fantinato</li>
+				</ul>
 			</div>
 		</section>
 		<section>
 			<div>
 				<h1>VML</h1>
-				Stig article
+				<ul>
+					<li><a href="https://docs.microsoft.com/en-us/windows/win32/vml/web-workshop---specs---standards----how-to-use-vml-on-web-pages">How to Use VML on Webpages</a>, Microsoft</li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>Test, test, test. <br />And then test again.</h1>
+				<ul>
+					<li><a href="https://sendtest.email">SendTest.email</a>, <a href="https://putsmail.com">Putsmail</a></li>
+					<li><a href="https://www.emailonacid.com">Email on Acid</a>, <a href="https://www.litmus.com">Litmus</a>, <a href="https://www.testi.at">Testi.at</a></li>
+				</ul>
 			</div>
 		</section>
 	</main>
+	<aside>
+		<div>
+			<h1>Let’s code!</h1>
+			<ul>
+				<li>Template</li>
+				<li>Image</li>
+				<li>Text</li>
+				<li>Button</li>
+				<li>Background images</li>
+				<li>Web fonts</li>
+			</ul>
+		</div>
+	</aside>
 </body>
 </html>
