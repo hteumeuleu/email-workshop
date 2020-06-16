@@ -18,19 +18,13 @@ This workshop is given with [Smashing Magazine](https://smashingconf.com/online-
 	- Interactivity 101.
 	- Advanced Interactivity.
 
-# Day 2
+All slides can be found at https://workshop.hteumeuleu.com.
+Examples I've shown from other brands are in the `examples` folder. My live coding demos are in the `demos` folder.
 
-## Scalable
+Here are links I may have mentioned throughout the workshop:
 
-## Responsive
+* [Backgrounds.cm](https://backgrounds.cm)
+* [Buttons.cm](https://buttons.cm)
+* [Good Email Code](https://www.goodemailcode.com/), by [Mark Robbins](https://twitter.com/M_J_Robbins)
+* [Open Doodles](https://opendoodles.com/) and [Open Peeps](https://openpeeps.com/), by [Pablo Stanley](https://twitter.com/pablostanley/)
 
-* Start from a desktop email and make it responsive. (with 1 column, and with multiple columns)
-
-## Mobile first
-
-## Fluid hybrid
-
-## Live coding
-
-* Hide content on desktop or mobile.
-* Revert columns order using `direction`.
