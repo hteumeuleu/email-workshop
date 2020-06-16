@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Outlook conditional comments</title>
+</head>
+<body>
+	<!--[if mso]>
+	<p>This is Outlook.</p>
+	<![endif]-->
+
+	<!--[if mso 12]>
+	<p>This is Outlook 2007.</p>
+	<![endif]-->
+
+	<!--[if mso 14]>
+	<p>This is Outlook 2010.</p>
+	<![endif]-->
+
+	<!--[if mso 15]>
+	<p>This is Outlook 2013.</p>
+	<![endif]-->
+
+	<!--[if mso 16]>
+	<p>This is Outlook 2016.</p>
+	<![endif]-->
+
+	<!--[if !mso]><!-->
+	<p>This is not Outlook.</p>
+	<!--<![endif]-->
+
+	<!--[if true]>
+	<p>This is a client that supports conditional comments.</p>
+	<![endif]-->
+
+	<!--[if vml]>
+	<p>This is a client that supports VML.</p>
+	<![endif]-->
+</body>
+</html>
