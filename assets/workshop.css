@@ -100,6 +100,10 @@ main {
 	background-color: #f4b165;
 }
 
+.dark {
+	background-color: #282634;
+}
+
 .white {
 	color: #000;
 	background-color: #fff;
