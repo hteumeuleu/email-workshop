@@ -37,6 +37,11 @@ a {
 	color: inherit;
 }
 
+p, ul {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
 li {
 	padding-top: 0.125em;
 	padding-bottom: 0.125em;
