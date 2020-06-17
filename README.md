@@ -23,8 +23,8 @@ Examples I've shown from other brands are in the `examples` folder. My live codi
 
 Here are links I may have mentioned throughout the workshop:
 
+* [The Better Email Resources](https://thebetter.email/resources/), by [Jason Rodriguez](https://twitter.com/RodriguezCommaJ)
 * [Backgrounds.cm](https://backgrounds.cm)
 * [Buttons.cm](https://buttons.cm)
 * [Good Email Code](https://www.goodemailcode.com/), by [Mark Robbins](https://twitter.com/M_J_Robbins)
 * [Open Doodles](https://opendoodles.com/) and [Open Peeps](https://openpeeps.com/), by [Pablo Stanley](https://twitter.com/pablostanley/)
-
