@@ -21,7 +21,16 @@ This workshop is given with [Smashing Magazine](https://smashingconf.com/online-
 All slides can be found at https://workshop.hteumeuleu.com.
 Examples I've shown from other brands are in the `examples` folder. My live coding demos are in the `demos` folder.
 
-Here are links I may have mentioned throughout the workshop:
+Here are links to some of my work related to HTML emails:
+
+* [HTeuMeuLeu.com](https://www.hteumeuleu.com)
+* [@HTeuMeuLeu](https://www.twitter.com/HTeuMeuLeu) on Twitter
+* [Can I email…](https://www.caniemail.com)
+* [Email Bugs](https://github.com/hteumeuleu/email-bugs)
+* [Email Guidelines](https://github.com/hteumeuleu/email-guidelines)
+* [Webinar with Smashing Magazine](https://www.smashingmagazine.com/2019/11/html-email-webinar/)
+
+Here are other links I may have mentioned throughout the workshop:
 
 * [The Better Email Resources](https://thebetter.email/resources/), by [Jason Rodriguez](https://twitter.com/RodriguezCommaJ)
 * [Backgrounds.cm](https://backgrounds.cm)
