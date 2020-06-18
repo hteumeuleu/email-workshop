@@ -32,6 +32,21 @@ Here are links to some of my work related to HTML emails:
 
 Here are other links I may have mentioned throughout the workshop:
 
+* [DoWebsitesNeedToLookExactlyTheSameInEveryBrowser.com](http://dowebsitesneedtolookexactlythesameineverybrowser.com)
+* [DoEmailsHaveToLookTheSameInEveryClient.com](http://doemailshavetolookthesameineveryclient.com)
+* [SendTest.email](https://sendtest.email)
+* [Litmus guide to ban blue links on ios devices in email](https://www.litmus.com/blog/update-banning-blue-links-on-ios-devices-2/)
+* [EmailComb](https://emailcomb.com/light)
+* [HTML Crush](https://htmlcrush.com/light)
+* [Word 2007 HTML and CSS Rendering Capabilities in Outlook 2007](https://docs.microsoft.com/en-us/previous-versions/office/developer/office-2007/aa338201(v=office.12)?redirectedfrom=MSDN), Microsoft
+* [About conditional comments](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537512(v%3dvs.85)), Microsoft
+* [Style attributes reference](https://stigmortenmyre.no/mso/html/concepts/ofconstyletable.htm), Microsoft
+* [Fixing bugs with Outlook specific CSS](https://cm.engineering/fixing-bugs-with-outlook-specific-css-f4b8ae5be4f4), by [Stig Morten Myre](https://twitter.com/stigm)
+* [Correcting Outlook DPI Scaling Issues](https://www.courtneyfantinato.com/correcting-outlook-dpi-scaling-issues/), by [Courtney Fantinato](https://twitter.com/courtfantinato)
+* [How to Use VML on Webpages](https://docs.microsoft.com/en-us/windows/win32/vml/web-workshop---specs---standards----how-to-use-vml-on-web-pages), Microsoft
+* [Email on Acid](https://www.emailonacid.com)
+* [Litmus](https://www.litmus.com)
+* [https://www.testi.at](Testi.at)
 * [The Better Email Resources](https://thebetter.email/resources/), by [Jason Rodriguez](https://twitter.com/RodriguezCommaJ)
 * [Backgrounds.cm](https://backgrounds.cm)
 * [Buttons.cm](https://buttons.cm)
