@@ -48,7 +48,9 @@
 					<h1>Use high-resolution images</h1>
 					<ul>
 						<li><a href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/image-size-and-resolution/">Image size and resolution</a>, Apple</li>
-						<li><a href="examples/adobe.html">Example from Adobe</a></li>
+						<li><a href="https://www.caniemail.com/search/?s=picture%2Bsrcset">Support for <code>&lt;picture&gt;</code> and <code>srcset</code></a> 😐</li>
+						<li>Export images at double their display size. <a href="examples/adobe.html">Example from Adobe</a></li>
+						<li><a href="https://helpx.adobe.com/photoshop/using/export-artboards-layers.html">Export assets in Photoshop</a>, Adobe</li>
 					</ul>
 				</div>
 			</section>
@@ -86,14 +88,46 @@
 			<section>
 				<div>
 					<h1>Responsive</h1>
-					<p>aka “Start on desktop and use media queries.”</p>
+					<p>aka “Start on desktop and use media queries for mobile.”</p>
 				</div>
 			</section>
-		</div>
-		<div class="blue">
 			<section>
 				<div>
-					<h1>Fluid/hybrid</h1>
+					<h1>Media query</h1>
+					<p><code>@media only screen and (max-width:600px) { }</code></p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Two useful utility classes</h1>
+					<ol>
+						<li><code>.mobile-block { display:block; }</code></li>
+						<li><code>.mobile-width { width:100%; }</code></li>
+					</ol>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Responsive</h1>
+					<p>📝 <a href="https://codepen.io/hteumeuleu/pres/XWXNGEq?editors=1000">Let’s code!</a></p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>WebKit's <code>&lt;th&gt;</code> quirk</h1>
+					<ul>
+						<li><a href="https://www.caniemail.com/features/html-doctype/"><code>&lt;!doctype html&gt;</code></a> on Can I email</li>
+						<li>In Quirks mode, WebKit doesn't apply <code>display:block</code> on a <code>&lt;td&gt;</code>.</li>
+						<li>Use <code>&lt;th&gt;</code> instead.</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Support for responsive</h1>
+					<ul>
+						<li><a href="https://www.caniemail.com/features/css-at-media/"><code>@media</code></a> and <a href="https://www.caniemail.com/features/html-style/"><code>&lt;style&gt;</code></a> on Can I email (looking at mobile clients)</li>
+					</ul>
 				</div>
 			</section>
 		</div>
@@ -101,6 +135,40 @@
 			<section>
 				<div>
 					<h1>Mobile first</h1>
+					<p>aka “Start on mobile and use media queries for desktop.”</p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Media query</h1>
+					<p><code>@media only screen and (min-width:600px) { }</code></p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Conditional comments</h1>
+					<p>Use conditional comments to maintain desktop layout for <em style="font-family:Comic sans MS, sans-serif;">the Outlooks</em> on Windows.</p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Mobile first</h1>
+					<p>📝 <a href="https://codepen.io/hteumeuleu/pres/PoZbgqW?editors=1000">Let’s code!</a></p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Support for mobile first</h1>
+					<ul>
+						<li><a href="https://www.caniemail.com/features/css-at-media/"><code>@media</code></a> and <a href="https://www.caniemail.com/features/html-style/"><code>&lt;style&gt;</code></a> on Can I email (looking at desktop clients)</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+		<div class="blue">
+			<section>
+				<div>
+					<h1>Fluid/hybrid</h1>
 				</div>
 			</section>
 		</div>
