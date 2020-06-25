@@ -46,7 +46,7 @@ Here are other links I may have mentioned throughout the workshop:
 * [How to Use VML on Webpages](https://docs.microsoft.com/en-us/windows/win32/vml/web-workshop---specs---standards----how-to-use-vml-on-web-pages), Microsoft
 * [Email on Acid](https://www.emailonacid.com)
 * [Litmus](https://www.litmus.com)
-* [https://www.testi.at](Testi.at)
+* [Testi.at](https://www.testi.at)
 * [The Better Email Resources](https://thebetter.email/resources/), by [Jason Rodriguez](https://twitter.com/RodriguezCommaJ)
 * [Backgrounds.cm](https://backgrounds.cm)
 * [Buttons.cm](https://buttons.cm)
