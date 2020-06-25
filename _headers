@@ -1,0 +1,4 @@
+/demos/data.json
+	Access-Control-Allow-Origin: https://mail.google.com
+	AMP-Access-Control-Allow-Source-Origin: tests@mail.sendtest.email
+	Access-Control-Expose-Headers: AMP-Access-Control-Allow-Source-Origin
