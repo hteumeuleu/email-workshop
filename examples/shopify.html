@@ -1,0 +1,484 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <!-- SHOPIFY // Load Fonts -->
+
+    <!-- Outlook font fallback -->
+    <!--[if mso]>
+        <style>
+            * {
+                font-family: sans-serif !important;
+            }
+        </style>
+    <![endif]-->
+
+    <!--[if !mso]><!-->
+    <style>
+        @font-face {
+            font-family: "ShopifySans";
+            src: url("https://cdn.shopify.com/shopify-marketing_assets/static/ShopifySans--light.woff2") format("woff2");
+            font-style: normal;
+            font-weight: 300
+        }
+
+        @font-face {
+            font-family: "ShopifySans";
+            src: url("https://cdn.shopify.com/shopify-marketing_assets/static/ShopifySans--regular.woff2") format("woff2");
+            font-style: normal;
+            font-weight: 400
+        }
+
+        @font-face {
+            font-family: "ShopifySans";
+            src: url("https://cdn.shopify.com/shopify-marketing_assets/static/ShopifySans--medium.woff2") format("woff2");
+            font-style: normal;
+            font-weight: 500
+        }
+
+        @font-face {
+            font-family: "ShopifySans";
+            src: url("https://cdn.shopify.com/shopify-marketing_assets/static/ShopifySans--bold.woff2") format("woff2");
+            font-style: normal;
+            font-weight: 700
+        }
+
+        @font-face {
+            font-family: "ShopifySans";
+            src: url("https://cdn.shopify.com/shopify-marketing_assets/static/ShopifySans--black.woff2") format("woff2");
+            font-style: normal;
+            font-weight: 900
+        }
+    </style>
+    <!--<![endif]-->
+
+    <!-- SHOPIFY // CSS Reset and Client Specific Fixes -->
+    <style type="text/css">
+        html,
+        body {
+            margin: 0 auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
+
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        div[style*="margin: 16px 0"] {
+            margin: 0 !important;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+        }
+
+        table {
+            border-spacing: 0 !important;
+            border-collapse: collapse !important;
+            table-layout: fixed !important;
+            Margin: 0 auto !important;
+        }
+
+        table table table {
+            table-layout: auto;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        .mobile-link--footer a,
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: underline !important;
+        }
+
+        a {
+            text-decoration: underline;
+            color: #5e6ebf;
+        }
+
+        p,
+        li {
+            margin-bottom: 1em;
+        }
+
+        h1 {
+            font-size: 24px;
+            line-height: 1.2em;
+            color: #212b35;
+            font-family: ShopifySans, 'Helvetica Neue', Helvetica, sans-serif;
+            font-weight: 700;
+        }
+
+        sup {
+            font-size: 66%;
+            line-height: 1;
+            vertical-align: top;
+            mso-text-raise: 30%;
+        }
+
+        @media screen and (max-width: 480px) {
+            u~div .full-wrap {
+                min-width: 100vw;
+            }
+
+            div>u~div .full-wrap {
+                min-width: 100%;
+            }
+        }
+    </style>
+
+    <!-- SHOPIFY // Enhancement Styles -->
+    <style>
+
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            background: #222D75 !important;
+            border-color: #222D75 !important;
+        }
+        
+        /* Media Queries */
+        @media screen and (max-width: 650px) {
+            
+            .email-container {
+                width: 100% !important;
+                margin: auto !important;
+
+                box-shadow: 0px !important; 
+                border-radius: 0px !important;
+                -webkit-box-shadow: 0px !important; 
+                -webkit-border-radius: 0px !important; 
+                -moz-border-radius: 0px !important; 
+            }
+          
+            .logo-header{
+                background: #ffffff !important;
+                border-bottom: 1px solid #dfe3e8 !important;
+            }
+
+            .fluid,
+            .fluid-centered {
+                max-width: 100% !important;
+                height: auto !important;
+                Margin-left: auto !important;
+                Margin-right: auto !important;
+            }
+            .fluid-centered {
+                Margin-left: auto !important;
+                Margin-right: auto !important;
+            }
+
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                direction: ltr !important;
+            }
+            .stack-column-center {
+                text-align: center !important;
+                padding-left: 0px !important;
+                padding-right: 0px !important;
+            }
+        
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                Margin-left: auto !important;
+                Margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+
+            .button-full-width {
+                width: 100% !important;
+                text-align: center !important;
+                Margin-left: auto !important;
+                Margin-right: auto !important;
+                float: none !important;
+            }
+            .column-narrow {
+                padding: 10px 0 !important;
+            }
+
+            u ~ div {
+                min-width: 100vw;
+            }
+            .column-image-full {
+                padding: 0px !important;
+            }
+        }
+
+    </style>
+</head>
+  
+  <body bgcolor="#dfe3e8" width="100%" style="Margin: 0;" class="full-wrap"><style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;"></div>
+    <center style="width: 100%; background: #dfe3e8;">
+      <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">    
+
+
+</td></tr></table>
+      <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- SHOPIFY // Logo Header -->
+        <table cellspacing="0" cellpadding="0" border="0" align="center" width="650" style="margin: auto; background: #ffffff; border-bottom: 1px solid #dfe3e8;" class="email-container">
+            <tr>
+                <td style="padding: 18px 7%;">
+                    <a href="https://www.shopify.com" target="_blank">
+                        <img src="https://cdn.shopify.com/s/files/1/0070/7032/files/shopify_vector_k.png?16957561611622291242" alt="Shopify" width="125" border="0" class="logo">
+                    </a>
+                </td>
+              <td align="right" style="padding: 18px 10%; font-family: ShopifySans, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; font-weight: 400; mso-height-rule: exactly; line-height: 22px; color: #30373b;">
+                    <a href="https://www.shopify.com" style="text-decoration: underline; color: #5e6ebf;">Démarrez votre essai gratuit
+</a>
+                </td>
+              
+            </tr>
+        </table></td></tr></table>
+      <!-- SHOPIFY // Email Body Starts -->
+        <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#FFFFFF" width="650" style="margin: auto;" class="email-container">
+          <tr>
+           <td>
+             <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" border="0" align="center">
+  <tr>
+    <td style="padding: 0px 7%; text-align: left; font-family: ShopifySans, 'Helvetica Neue', Helvetica, sans-serif; font-size: 11px; font-weight: 400; mso-height-rule: exactly; line-height: 24px; color: #637381; border-bottom: 1px solid #dfe3e8; font-weight: 700; text-transform: uppercase;">
+      25 juin, 2020
+    </td>
+  </tr>
+
+
+  <!-- SHOPIFY // Text Area with Button // Left Aligned -->
+  <tr>
+    <td style="padding: 20px 7%; text-align: left; font-family: ShopifySans, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; font-weight: 400; mso-height-rule: exactly; line-height: 24px; color: #637381;">
+      <h2 style="font-size: 14px; line-height: 18px; color: #212b35; font-family: ShopifySans, 'Helvetica Neue', Helvetica, sans-serif; font-weight: 700; margin-bottom: 2em;">
+        <img src="https://cdn.shopify.com/s/files/1/0070/7032/files/blog-post.png?4960901473618690103" width="14" alt="" border="0">&nbsp;&nbsp;&nbsp; BLOG DE SHOPIFY
+      </h2>
+      
+         
+
+      <h1 style="font-size: 24px; line-height: 1.2; color: #212b35; font-family: ShopifySans, 'Helvetica Neue', Helvetica, sans-serif; font-weight: 700;clear: left; ">
+        Comment monter une entreprise de produits alimentaires en ligne : le guide complet
+      </h1>
+      <a href="https://www.shopify.com" target="_blank">
+        <img src="https://cdn.shopify.com/s/files/1/0249/6376/files/monter_entreprise_alimentaire_en_ligne_809a417e-dc2d-4ee2-902a-3e209564a535.jpg?v=1592993556" width="560" alt="" border="0" align="center" style="width: 100%; max-width: 560px;">
+      </a>
+      <p style="margin-bottom: 1.5em; margin-top: 2em;">
+        Dans le cadre de la création de toute nouvelle entreprise, il y a des obstacles à surmonter, et chaque secteur présente des considérations et des complexités juridiques qui lui sont propres. Qu’en est-il cependant du secteur alimentaire ? C’est un cas à part. On y trouve un mélange abondant d’information et de désinformation, davantage de risques en matière de complications juridiques, et la chaîne d'approvisionnement, connue pour être fragile, peut être affectée par une multitude de facteurs, des conditions météorologiques, aux considérations bactériologiques. Cela dit, si votre idée entrepreneuriale vous semble particulièrement prometteuse, et que vous êtes disposé à relever le défi, tenez-vous prêt. Nous sommes ici pour vous aider à réussir. De la production à l’expédition, nous couvrons dans ce guide tous les sujets clés pour vous expliquer comment monter votre entreprise de produits alimentaires en ligne.
+      </p>
+
+      <!-- Button -->
+      <table cellspacing="0" cellpadding="0" border="0" class="button-full-width" style="float:left;">
+        <tr>
+          <td style="border-radius: 5px; background: #5e6ebf; text-align: center;" class="button-td">
+            <a href="https://www.shopify.com" style="background: #5e6ebf; border: 2px solid #5e6ebf; font-family: ShopifySans, Helvetica, Arial, sans-serif; font-weight:500; font-size: 16px; line-height: 1.1; text-align: center; text-decoration: none; display: block; webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15); box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 13px; color:#ffffff; white-space:nowrap;" class="button-a">
+              &nbsp;&nbsp;&nbsp;&nbsp;
+  Poursuivre la lecture  &nbsp;&nbsp;&nbsp;&nbsp;
+            </a>
+          </td>
+        </tr>
+      </table>
+      
+   
+       
+      
+
+    </td>
+  </tr>
+  <!-- Spacer : BEGIN -->
+  <tr>
+    <td align="left" valign="top" width="100%" height="20" style="border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 20px;">
+      <!--[if gte mso 15]>&nbsp;<![endif]-->
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 0px 7%; text-align: left; font-family: ShopifySans, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; font-weight: 400; mso-height-rule: exactly; line-height: 24px; color: #637381;">
+    </td>
+  </tr>
+  <!-- SHOPIFY // Double Column -->
+  <tr>
+    <td align="left" valign="top" style="padding: 0px 7%;">
+      <h2 style="font-size: 14px; line-height: 18px; color: #212b35; font-family: ShopifySans, 'Helvetica Neue', Helvetica, sans-serif; font-weight: 700; margin-bottom: 2em;">
+        <img src="https://cdn.shopify.com/s/files/1/0070/7032/files/blog-trending.png?12628228857447988337" width="11" alt="" border="0">&nbsp;&nbsp;&nbsp; Articles populaires 
+      </h2>
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+          <!-- Left Column -->
+          <td class="stack-column-center" valign="top" style="padding-bottom: 15px;">
+            <table cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td style="padding: 15px 10px 0px 0px; text-align: left" class="column-image-full">
+                  <a href="https://www.shopify.com" target="_blank"><img src="https://cdn.shopify.com/s/files/1/0249/6376/files/monter_entreprise_alimentaire_en_ligne_809a417e-dc2d-4ee2-902a-3e209564a535.jpg?v=1592993556" width="269" alt="" border="0" class="fluid" style="width: 100%"></a>
+                </td>
+              </tr>
+              <tr>
+                <td style="font-family: ShopifySans, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; font-weight: 400; mso-height-rule: exactly; line-height: 22px; color: #637381; padding: 10px 10px 0 0; text-align: left;" class="column-narrow">
+                  <a href="https://www.shopify.com" style="color: #30373b; font-weight: bold; font-size: 16px; line-height: 22px; text-decoration: none;">Comment monter une entreprise de produits alimentaires en ligne : le guide complet</a>
+                  <br><br><a href="https://www.shopify.com" style="text-decoration: underline; color: #5e6ebf;">En savoir plus</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+          
+          <!-- Right Column -->
+          <td class="stack-column-center" valign="top" style="padding-bottom: 15px;">
+            <table cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td style="padding: 15px 0px 0px 10px; text-align: left" class="column-image-full">
+                  <a href="https://www.shopify.com" target="_blank"><img src="https://cdn.shopify.com/s/files/1/0249/6376/files/transferer_magasin_en_ligne.jpg?v=1586808522" width="269" alt="" border="0" class="fluid" style="width: 100%"></a>
+                </td>
+              </tr>
+              <tr>
+                <td style="font-family: ShopifySans, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; font-weight: 400; mso-height-rule: exactly; line-height: 22px; color: #637381; padding: 10px 0 0 10px; text-align: left;" class="column-narrow">
+                  <a href="https://www.shopify.com" style="color: #30373b; font-weight: bold; font-size: 16px; line-height: 22px; text-decoration: none;">Comment transférer votre magasin physique en ligne : tutoriel en images</a>
+                  <br><br><a href="https://www.shopify.com" style="text-decoration: underline; color: #5e6ebf;">En savoir plus</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+         <tr>
+          <!-- Left Column -->
+          <td class="stack-column-center" valign="top" style="padding-bottom: 15px;">
+            <table cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td style="padding: 15px 10px 0px 0px; text-align: left" class="column-image-full">
+                  <a href="https://www.shopify.com" target="_blank"><img src="https://cdn.shopify.com/s/files/1/0249/6376/files/Shopify_Attendees_039.jpg?v=1579544112" width="269" alt="" border="0" class="fluid" style="width: 100%"></a>
+                </td>
+              </tr>
+              <tr>
+                <td style="font-family: ShopifySans, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; font-weight: 400; mso-height-rule: exactly; line-height: 22px; color: #637381; padding: 10px 10px 0 0; text-align: left;" class="column-narrow">
+                  <a href="https://www.shopify.com" style="color: #30373b; font-weight: bold; font-size: 16px; line-height: 22px; text-decoration: none;">Salon des Entrepreneurs 2020 : Shopify sera à Paris les 5 et 6 février 2020</a>
+                  <br><br><a href="https://www.shopify.com" style="text-decoration: underline; color: #5e6ebf;">En savoir plus</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+          
+          <!-- Right Column -->
+          <td class="stack-column-center" valign="top" style="padding-bottom: 15px;">
+            <table cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td style="padding: 15px 0px 0px 10px; text-align: left" class="column-image-full">
+                  <a href="https://www.shopify.com" target="_blank"><img src="https://cdn.shopify.com/s/files/1/0249/6376/files/email-marketing.jpg?v=1565005329" width="269" alt="" border="0" class="fluid" style="width: 100%"></a>
+                </td>
+              </tr>
+              <tr>
+                <td style="font-family: ShopifySans, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; font-weight: 400; mso-height-rule: exactly; line-height: 22px; color: #637381; padding: 10px 0 0 10px; text-align: left;" class="column-narrow">
+                  <a href="https://www.shopify.com" style="color: #30373b; font-weight: bold; font-size: 16px; line-height: 22px; text-decoration: none;">E-mail marketing : le guide pour les petites entreprises</a>
+                  <br><br><a href="https://www.shopify.com" style="text-decoration: underline; color: #5e6ebf;">En savoir plus</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+
+      </table>
+    </td>
+  </tr>
+  
+  <!-- Spacer : BEGIN -->
+  <tr>
+    <td align="left" valign="top" width="100%" height="20" style="border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 20px;">
+      <!--[if gte mso 15]>&nbsp;<![endif]-->
+    </td>
+  </tr>
+  <!--   <tr>     <td style="padding: 10px 7% 5px 7%; text-align: left; font-family: ShopifySans, 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; font-weight: 400; mso-height-rule: exactly; line-height: 24px; color: #637381; border-top: 1px solid #dfe3e8;" bgcolor="#f4f6f8">       <h2 style="font-size: 18px; line-height: 1.2; color: #212b35; font-family: ShopifySans, 'Helvetica Neue', Helvetica, sans-serif; font-weight: 700;">         Helpful Links       </h2>       <p style="margin-bottom: 1em; border-bottom: 1px solid #dfe3e8; padding-bottom: 1em;">         <a href="https://www.shopify.ca/toolbox/shipping/calculator?utm_source=exacttarget&utm_medium=email&utm_campaign=blog&utm_content=french_blog" style="color:#5e6ebf; text-decoration:none;"></a>       </p>     </td>   </tr> -->
+  <!-- Spacer : BEGIN -->
+  <tr>
+    <td align="left" valign="top" width="100%" height="20" style="border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 20px;">
+      <!--[if gte mso 15]>&nbsp;<![endif]-->
+    </td>
+  </tr>
+
+
+</table></td></tr></table>
+           </td>
+          </tr>   
+      </table>
+      <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- SHOPIFY // Footer AMPScript  -->                
+
+
+<!-- SHOPIFY // Logo Header -->
+        <table cellspacing="0" cellpadding="0" border="0" align="center" width="650" style="margin: auto; background: #000639;" class="email-container">
+            <tr>
+                <td style="padding: 40px 7% 15px 7%; text-align: left; font-family: ShopifySans, 'Helvetica Neue', Helvetica, sans-serif; font-size: 1em; font-weight: 400; mso-height-rule: exactly; line-height: 1.5em; color: #637381;" class="center-on-narrow">
+                    <a href="https://www.shopify.com" target="new" style="color:#888;font-size:13px;text-decoration:none;">
+                        <img src="https://cdn.shopify.com/s/files/1/0070/7032/files/facebook-email-w.png?14455745316362094735" width="25" alt="Facebook" title="Facebook" border="0">
+                    </a>&nbsp;
+                    <a href="https://www.shopify.com" target="new" style="color:#888;font-size:13px;text-decoration:none;">
+                        <img src="https://cdn.shopify.com/s/files/1/0070/7032/files/twitter-email-w.png" width="25" alt="Twitter" title="Twitter" border="0">
+                    </a>&nbsp;
+                    <a href="https://www.shopify.com" target="new" style="color:#888;font-size:13px;text-decoration:none;">
+                        <img src="https://cdn.shopify.com/s/files/1/0070/7032/files/instagram-email-w.png" width="25" alt="Instagram" title="Instagram" border="0">
+                    </a>&nbsp;
+                    <a href="https://www.shopify.com" target="new" style="color:#888;font-size:13px;text-decoration:none;">
+                        <img src="https://cdn.shopify.com/s/files/1/0070/7032/files/snapchat-email-w.png" width="25" alt="Snapchat" title="Snapchat" border="0">
+                    </a>&nbsp;
+                    <a href="https://www.shopify.com" target="new" style="color:#888;font-size:13px;text-decoration:none;">
+                        <img src="https://cdn.shopify.com/s/files/1/0070/7032/files/linkedin-email-w.png" width="25" alt="LinkedIn" title="LinkedIn" border="0">
+                    </a>&nbsp;
+                    <a href="https://www.shopify.com" target="new" style="color:#888;font-size:13px;text-decoration:none;">
+                        <img src="https://cdn.shopify.com/s/files/1/0070/7032/files/pinterest-email-w.png" width="25" alt="Pinterest" title="Pinterest" border="0">
+                    </a>&nbsp;
+                    <a href="https://www.shopify.com" target="new" style="color:#888;font-size:13px;text-decoration:none;">
+                        <img src="https://cdn.shopify.com/s/files/1/0070/7032/files/youtube-email-w.png" width="25" alt="YouTube" title="YouTube" border="0">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px 7%; text-align: left; font-family: ShopifySans, 'Helvetica Neue', Helvetica, sans-serif; font-size: 12px; font-weight: 400; mso-height-rule: exactly; line-height: 1.5em; color: #919eab;" class="center-on-narrow">
+                    &copy; Shopify,<span class="contact">&nbsp;150 Elgin Street, Ottawa
+                        ON, K2P 1L4</span>
+                    <br><br>
+                    <strong><a href="https://www.shopify.com"  style="color:#919eab;font-size:13px;text-decoration:none;">Se d&eacute;sabonner</a></strong>
+                  
+                    <br><br>
+                  
+                    <!--  -->
+
+      
+      
+      <span style="font-size: 9px;">Shopify.MailID:1-1.123456789</span>
+
+      <br>
+      <br>
+      <span style="font-size: 9px; color: #F4F6F8"></span>
+                  
+                  
+                </td>
+            </tr>
+          
+          
+          
+          <tr>
+                <td align="left" valign="top" width="100%" height="20" style="border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; mso-line-height-rule: exactly; line-height: 20px;">
+                    <!--[if gte mso 15]>&nbsp;<![endif]-->
+                </td>
+            </tr>
+        </table>
+</td></tr></table>
+
+    </center>
+  </body>
+</html>
