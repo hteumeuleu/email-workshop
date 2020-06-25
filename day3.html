@@ -38,39 +38,42 @@
 		</section>
 		<section>
 			<div>
-				<h1>Shortcuts for VoiceOver on&nbsp;macOS</h1>
+				<h1>VoiceOver demo on macOS</h1>
+				<p>Shortcuts for VoiceOver on&nbsp;macOS:</p>
 				<ul>
 					<li><code>CMD</code> + <code>F5</code>: toggle VoiceOver on or off.</li>
 					<li><code>CTRL</code> + <code>ALT</code> + <code>SHIFT</code> + <code>DOWN</code>: enter content.</li>
 					<li><code>CTRL</code> + <code>ALT</code> + <code>LEFT</code>/<code>RIGHT</code>: browse content.</li>
+					<li><code>CTRL</code> + <code>ALT</code> + <code>U</code>: use the rotor.</li>
 				</ul>
-			</div>
-		</section>
-		<section>
-			<div>
-				<h1>Audit your emails</h1>
-				<ul>
-					<li><a href="http://www.accessible-email.org/">accessible-email.org</a></li>
-					<li><a href="https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector">Firefox’s accessibility inspector</a></li>
-				</ul>
-			</div>
-		</section>
-		<section>
-			<div>
-				<h1>Use the <code>lang</code> attribute</h1>
-			</div>
-		</section>
-		<section>
-			<div>
-				<h1>Use <code>role="presentation"</code> on&nbsp;<code>&lt;table&gt;</code></h1>
+				<p><a href="examples/smashing-magazine.html">Smashing Magazine email example</a></p>
 			</div>
 		</section>
 		<section>
 			<div>
 				<h1>Use the <code>alt</code> attribute</h1>
 				<ul>
-					<li>Always have at least <code>alt=""</code></li>
-					<li>Add content if it’s relevant or if in a link</li>
+					<li>Always have at least <code>alt=""</code> (<a href="examples/lego-alt.html">LEGO example</a>)</li>
+					<li>Add content if the image is in a link (<a href="examples/spotify.html">Spotify example</a>)</li>
+					<li>Use relevant content (<a href="examples/deliveroo.html">Deliveroo example</a>)</li>
+					<li>Don’t do this! (<a href="examples/aeo.html">AEO example</a>)</li>
+					<li><a href="https://webaim.org/techniques/alttext/">WebAIM’s guide to alternative text</a></li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>Use the <code>lang</code> attribute</h1>
+				<ul>
+					<li><a href="examples/mailchimp.html">Mailchimp example</a></li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>Use <code>role="presentation"</code> on&nbsp;<code>&lt;table&gt;</code></h1>
+				<ul>
+					<li><a href="examples/jacadi.html">Jacadi example</a></li>
 				</ul>
 			</div>
 		</section>
@@ -84,47 +87,82 @@
 				</ul>
 			</div>
 		</section>
+		<section>
+			<div>
+				<h1>Audit your emails</h1>
+				<ul>
+					<li><a href="http://www.accessible-email.org/">accessible-email.org</a></li>
+					<li><a href="https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector">Firefox’s accessibility inspector</a></li>
+				</ul>
+			</div>
+		</section>
 	</main>
 	<main class="dark">
 		<section>
 			<div>
 				<h1>Dark Mode</h1>
+				<ul>
+					<li><a href="https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers/">The Ultimate Guide to Dark Mode</a>, Alice Li</li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>Dark Mode</h1>
+				<ol>
+					<li><b>Apple Mail:</b> barely changes colors, easy to target.</li>
+					<li><b>Outlook:</b> changes colors and images, hard to target.</li>
+					<li><b>Gmail:</b> changes colors and images, untargetable.</li>
+				</ol>
 			</div>
 		</section>
 		<section>
 			<div>
 				<h1><code>@prefers-color-scheme</code></h1>
 				<ul>
+					<li>📝 <a href="https://codepen.io/hteumeuleu/pres/BajRmjG?editors=1000">Example on CodePen</a></li>
+					<li>First, add <code>&lt;meta name="supported-color-schemes" content="light dark"&gt;</code></li>
 					<li><a href="https://www.caniemail.com/features/css-at-media-prefers-color-scheme/">Can I email… <code>@prefers-color-scheme</code></a></li>
 				</ul>
 			</div>
 		</section>
 		<section>
 			<div>
-				<h1>Targeting Outlook.com and Outlook iOS</h1>
+				<h1>Target Outlook.com in dark mode</h1>
 				<ul>
-					<li><code>[data-ogsc] .foo{}</code> (via <a href="https://howtotarget.email/#68">How to target Email Clients</a>)</li>
+					<li><code>[data-ogsb] .foo{}</code> (via <a href="https://howtotarget.email/#68">How to target Email Clients</a>)</li>
 				</ul>
 			</div>
 		</section>
 		<section>
 			<div>
-				<h1>Outline images</h1>
+				<h1>Use VML to maintain colors in <span style="font-family:Comic Sans MS, sans-serif;">Outlook</span> on Windows</h1>
 			</div>
 		</section>
 		<section>
 			<div>
-				<h1>Use VML to maintain colors in <span style="font-family:Comic Sans MS, sans-serif;">Outlook</span></h1>
+				<h1>Outline images</h1>
+				<ul>
+					<li><a href="https://www.hteumeuleu.com/2019/dealing-with-outlook-com-s-dark-mode/#f024">Dealing with Outlook.com’s Dark Mode</a> (in 2019)</li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div>
+				<h1>Gmail</h1>
+				<ul>
+					<li>Activate <code>chrome://flags#enable-force-dark</code> in Chrome to get a close match locally (<a href="https://twitter.com/HTeuMeuLeu/status/1213019323230539777">source</a>)</li>
+					<li>Support for <code>@media (prefers-color-scheme)</code> is <a href="https://github.com/hteumeuleu/email-bugs/issues/68#issuecomment-629411633">supposedly coming</a></li>
+				</ul>
 			</div>
 		</section>
 	</main>
-	<aside>
-		<div>
-			<h1>Let’s code!</h1>
-			<ul>
-				<li>…</li>
-			</ul>
-		</div>
-	</aside>
+	<main class="red">
+		<section>
+			<div>
+				<h1>Questions?</h1>
+			</div>
+		</section>
+	</main>
 </body>
 </html>

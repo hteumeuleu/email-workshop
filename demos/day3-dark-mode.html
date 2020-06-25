@@ -2,12 +2,31 @@
 <html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
 	<meta charset="UTF-8">
-	<title>Let’s code — Day 3</title>
+	<title>Let’s code — Day 2</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon shortcut" href="https://workshop.hteumeuleu.com/assets/favicon.png">
 	<meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+	<meta name="supported-color-schemes" content="light dark">
 	<style>
 		.smashing-button:hover { background-color:#333 !important; }
+
+		@media (prefers-color-scheme:dark) {
+			.email-hero {
+				background-color: #8c6b09 !important;
+			}
+
+			.email-bgcolor {
+				background-color: #333 !important;
+			}
+
+			.email-txt-white {
+				color: #eee !important;
+			}
+
+			[class="x_email-hero"] { background:#ffd52c !important; }
+			[data-ogsb] .email-hero { background:red !important; }
+
+		}
 
 	</style>
 	<!--[if mso]>
@@ -18,9 +37,9 @@
 	</xml>
 	<![endif]-->
 </head>
-<body style="min-width:280px; margin:0; -webkit-text-size-adjust:none; text-size-adjust:none; background:#fff;">
-	<div lang="en" style="background:#fff">
-			<p class="hero" style="margin:0; background:#ffd52c; text-align:center;"><img src="https://assets.codepen.io/61151/dog.png" alt="" style="display:block; margin:0 auto; width:100%; max-width:600px;" width="600" /></p>
+<body style="min-width:280px; margin:0; -webkit-text-size-adjust:none; text-size-adjust:none; background:#fff;" class="email-bgcolor">
+	<div lang="en" style="background:#fff" class="email-bgcolor">
+			<p class="email-hero" style="margin:0; background:#ffd52c; text-align:center;"><img src="https://assets.codepen.io/61151/dog.png" alt="" style="display:block; margin:0 auto; width:100%; max-width:600px;" width="600" /></p>
 			<table border="0" cellpadding="0" cellspacing="0" role="presentation" align="center" style="width:100%; margin:0 auto;">
 				<tr>
 					<td style="padding:16px;">
@@ -30,8 +49,8 @@
 								<td>
 						<![endif]-->
 						<div style="max-width:600px; margin:0 auto;">
-							<h1 style="margin:0 0 16px; color:#070b0a; font:bold 32px/1.5 serif;">The Identifiable Victim Effect</h1>
-							<p style="margin:0 0 16px; color:#273d37; font:300 20px/1.5 sans-serif;">
+							<h1 class="email-txt-white" style="margin:0 0 16px; color:#070b0a; font:bold 32px/1.5 serif;">The Identifiable Victim Effect</h1>
+							<p class="email-txt-white" style="margin:0 0 16px; color:#273d37; font:300 20px/1.5 sans-serif;">
 								We tend to offer more aid when a specific individual is in need than when a group is in need.
 							</p>
 							<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#000; width:210px; border-radius:4px;" class="smashing-button">
@@ -41,8 +60,8 @@
 									</td>
 								</tr>
 							</table>
-							<p style="margin:16px 0 0; color:#273d37; font:10px/1.5 sans-serif;">
-								Based on <a href="https://doodles-site-example.webflow.io" style="color:#273d37;">doodles-site-example.webflow.io</a>
+							<p class="email-txt-white" style="margin:16px 0 0; color:#273d37; font:10px/1.5 sans-serif;">
+								Based on <a href="https://doodles-site-example.webflow.io" style="color:#273d37;" class="email-txt-white">doodles-site-example.webflow.io</a>
 							</p>
 						</div>
 						<!--[if mso]>
