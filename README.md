@@ -52,3 +52,4 @@ Here are other links I may have mentioned throughout the workshop:
 * [Buttons.cm](https://buttons.cm)
 * [Good Email Code](https://www.goodemailcode.com/), by [Mark Robbins](https://twitter.com/M_J_Robbins)
 * [Open Doodles](https://opendoodles.com/) and [Open Peeps](https://openpeeps.com/), by [Pablo Stanley](https://twitter.com/pablostanley/)
+* [CSS Selectors, explained](https://hugogiraudel.github.io/selectors-explained/)
