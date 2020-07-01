@@ -1,0 +1,71 @@
+<!doctype html>
+<html amp4email>
+<head>
+	<meta charset="utf-8">
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+	<script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+	<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+	<style amp4email-boilerplate>body { visibility:hidden }</style>
+	<style amp-custom>
+	.post {
+		margin: 0 auto 64px;
+		width:100%;
+		max-width:930px;
+	}
+
+	.post-title {
+		font-family: Mija, sans-serif;
+		font-size: 36px;
+		line-height: 42px;
+	}
+
+	.post-title-link {
+		color: #333;
+		text-decoration: none;
+		transition: color .1s linear;
+	}
+
+	.post-title-link:hover {
+		color: #d33a2c;
+	}
+
+	.post-content {
+		color: #333;
+		font-size: 20px;
+		font-family: Elena, serif;
+		line-height: 36px;
+	}
+
+	.post-time {
+		color: #666;
+	}
+
+	.post-more-link {
+		color: #006fc6;
+		font-family: Mija, sans-serif;
+		font-weight: bold;
+	}
+	</style>
+</head>
+<body>
+	<amp-list src="https://workshop.hteumeuleu.com/demos/data.json" items="items" height="200" max-items="3" layout="fixed-height">
+		<template type="amp-mustache">
+			<div class="post">
+				<h1 class="post-title"><a class="post-title-link" href="{{link}}">{{title}}</a></h1>
+				<p class="post-content">
+					<span class="post-time">{{pubDate}} —</span> {{description}}
+				</p>
+				<p class="post-more">
+					<a class="post-more-link" href="{{link}}">Read more&hellip;</a>
+				</p>
+			</div>
+		</template>
+		<div placeholder>
+			This is the placeholder.
+		</div>
+		<div fallback>
+			This is the fallback.
+		</div>
+	</amp-list>
+</body>
+</html>
