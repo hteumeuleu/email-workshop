@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Day 3 - Building Modern HTML Emails Without Going Mad - Smashing Magazine Workshop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="../assets/workshop.css" />
+	<link rel="icon" type="image/png" href="../assets/favicon.png" />
+</head>
+<body>
+	<main>
+		<div class="green">
+			<section class="red">
+				<div>
+					<h1>Day 3</h1>
+					<p>Accessibility. And Dark Mode.</p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>“This is for everyone”</h1>
+					<ul>
+						<li><a href="https://www.youtube.com/watch?v=4As0e4de-rI&t=1h17m45s">Tim Berners Lee at the 2012 Olympics</a></li>
+						<li><a href="https://books.google.co.uk/books?id=JTNwDwAAQBAJ&pg=PA122&lpg=PA122&dq=%22Cerf+is+hard+of+hearing+and+his+wife+is+deaf.+At+the+time,+they+couldn%27t+use+a+telephone+to+communicate.+His+work+on+email+started,+in+part,+as+a+way+for+him+and+his+wife+to+stay+connected+when+they+weren%27t+together+in+the+same+room.%22&source=bl&ots=FRb9U6iulk&sig=ACfU3U0rJ-Uy6VPnz4m_uhiK-sUnuOfshQ&hl=en&sa=X&ved=2ahUKEwjEx-iE0MfpAhXHQhUIHe_1B1kQ6AEwAHoECAEQAQ#v=onepage&q=%22Cerf%20is%20hard%20of%20hearing%20and%20his%20wife%20is%20deaf.%20At%20the%20time%2C%20they%20couldn't%20use%20a%20telephone%20to%20communicate.%20His%20work%20on%20email%20started%2C%20in%20part%2C%20as%20a%20way%20for%20him%20and%20his%20wife%20to%20stay%20connected%20when%20they%20weren't%20together%20in%20the%20same%20room.%22&f=false">Vint Cerf quote</a></li>
+						<li><a href="https://webaim.org/intro/">Introduction to Web Accessibility</a></li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>You have a screen reader!</h1>
+					<ul>
+						<li>Windows 10: <a href="https://support.microsoft.com/en-us/help/22798/windows-10-complete-guide-to-narrator">Narrator</a></li>
+						<li>macOS: <a href="https://help.apple.com/voiceover/mac/10.15/?lang=en">VoiceOver</a></li>
+						<li>Android: <a href="https://support.google.com/accessibility/android/answer/6283677?hl=en">TalkBack</a></li>
+						<li>iOS: <a href="https://support.apple.com/guide/iphone/turn-on-and-practice-voiceover-iph3e2e415f/ios">VoiceOver</a></li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>VoiceOver demo on macOS</h1>
+					<p>Shortcuts for VoiceOver on&nbsp;macOS:</p>
+					<ul>
+						<li><code>CMD</code> + <code>F5</code>: toggle VoiceOver on or off.</li>
+						<li><code>CTRL</code> + <code>ALT</code> + <code>SHIFT</code> + <code>DOWN</code>: enter content.</li>
+						<li><code>CTRL</code> + <code>ALT</code> + <code>LEFT</code>/<code>RIGHT</code>: browse content.</li>
+						<li><code>CTRL</code> + <code>ALT</code> + <code>U</code>: use the rotor.</li>
+					</ul>
+					<p><a href="../examples/smashing-magazine.html">Smashing Magazine email example</a></p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Use the <code>alt</code> attribute</h1>
+					<ul>
+						<li>Always have at least <code>alt=""</code> (<a href="../examples/lego-alt.html">LEGO example</a>)</li>
+						<li>Add content if the image is in a link (<a href="../examples/spotify.html">Spotify example</a>)</li>
+						<li>Use relevant content (<a href="../examples/deliveroo.html">Deliveroo example</a>)</li>
+						<li>Don’t do this! (<a href="../examples/aeo.html">AEO example</a>)</li>
+						<li><a href="https://webaim.org/techniques/alttext/">WebAIM’s guide to alternative text</a></li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Use the <code>lang</code> attribute</h1>
+					<ul>
+						<li><a href="../examples/shopify.html">Shopify example</a></li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Use <code>role="presentation"</code> on&nbsp;<code>&lt;table&gt;</code></h1>
+					<ul>
+						<li><a href="../examples/jacadi.html">Jacadi example</a></li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Use semantic markup and title levels</h1>
+					<ul>
+						<li><code>&lt;p&gt;</code></li>
+						<li><code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code></li>
+						<li><code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, …</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Audit your emails</h1>
+					<ul>
+						<li><a href="http://www.accessible-email.org/">accessible-email.org</a></li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector">Firefox’s accessibility inspector</a></li>
+					</ul>
+				</div>
+			</section>
+		</div>
+		<div class="dark">
+			<section>
+				<div>
+					<h1>Dark Mode</h1>
+					<ul>
+						<li><a href="https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers/">The Ultimate Guide to Dark Mode</a>, Alice Li</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Dark Mode</h1>
+					<ol>
+						<li><b>Apple Mail:</b> barely changes colors, easy to target.</li>
+						<li><b>Outlook:</b> changes colors and images, hard to target.</li>
+						<li><b>Gmail:</b> changes colors and images, untargetable.</li>
+					</ol>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1><code>@prefers-color-scheme</code></h1>
+					<ul>
+						<li>📝 <a href="https://codepen.io/hteumeuleu/pres/BajRmjG?editors=1000">Example on CodePen</a></li>
+						<li>First, add <code>&lt;meta name="supported-color-schemes" content="light dark"&gt;</code></li>
+						<li><a href="https://www.caniemail.com/features/css-at-media-prefers-color-scheme/">Can I email… <code>@prefers-color-scheme</code></a></li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Target Outlook.com in dark mode</h1>
+					<ul>
+						<li><code>[data-ogsb] .foo{}</code> (via <a href="https://howtotarget.email/#68">How to target Email Clients</a>)</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Use background images</h1>
+					<p>Use background images to maintain background colors in dark mode where targeting is not possible.</p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Outline images</h1>
+					<ul>
+						<li><a href="https://www.hteumeuleu.com/2019/dealing-with-outlook-com-s-dark-mode/#f024">Dealing with Outlook.com’s Dark Mode</a> (in 2019)</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Gmail</h1>
+					<ul>
+						<li>Activate <code>chrome://flags#enable-force-dark</code> in Chrome to get a close match locally (<a href="https://twitter.com/HTeuMeuLeu/status/1213019323230539777">source</a>)</li>
+						<li>Support for <code>@media (prefers-color-scheme)</code> is <a href="https://github.com/hteumeuleu/email-bugs/issues/68#issuecomment-629411633">supposedly coming</a></li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	</main>
+	<aside>
+		<section>
+			<div>
+				<h1>Questions?</h1>
+			</div>
+		</section>
+	</aside>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Day 2 - Building Modern HTML Emails Without Going Mad - Smashing Magazine Workshop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="../assets/workshop.css" />
+	<link rel="icon" type="image/png" href="../assets/favicon.png" />
+</head>
+<body>
+	<main>
+		<div class="red">
+			<section>
+				<div>
+					<h1>Day 2</h1>
+					<p>Responsive. (Without responsive.)</p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Different strategies</h1>
+					<ul>
+						<li>Scalable. Responsive. Fluid/hybrid. Mobile first.</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>What size should an email be?</h1>
+					<ul>
+						<li><a href="../demos/available-width.html">Available width demo</a></li>
+						<li><a href="../assets/images/available-width.png">Email width available depending on window's size</a> (circa 2016)</li>
+						<li><a href="../examples/emailweekly.html">EmailWeekly example</a></li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1><code>&lt;meta name="viewport"&gt;</code></h1>
+					<ul>
+						<li><a href="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html">Configuring the viewport</a>, Apple</li>
+						<li>Useful for local dev and mirror view, not for email clients.</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Use high-resolution images</h1>
+					<ul>
+						<li><a href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/image-size-and-resolution/">Image size and resolution</a>, Apple</li>
+						<li><a href="https://www.caniemail.com/search/?s=picture%2Bsrcset">Support for <code>&lt;picture&gt;</code> and <code>srcset</code></a> 😐</li>
+						<li>Export images at double their display size. <a href="../examples/adobe.html">Example from Adobe</a></li>
+						<li><a href="https://helpx.adobe.com/photoshop/using/export-artboards-layers.html">Export assets in Photoshop</a>, Adobe</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+		<div class="purple">
+			<section>
+				<div>
+					<h1>Scalable</h1>
+					<p>aka “Yay! Let’s not do anything!”
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Scalable</h1>
+					<ul>
+						<li>Examples from <a href="https://files.reallygoodemails.com/emailHtml/for-members-eyes-only">MeUndies</a>, <a href="https://files.reallygoodemails.com/emailHtml/seasonals-new-man-editorial">Zara</a></li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Scalable</h1>
+					<p>Use <code>&lt;meta name="x-apple-disable-message-reformatting"&gt;</code> for&nbsp;Apple&nbsp;Mail in iOS.</p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Scalable</h1>
+					<p>It’s more about design than code. Make things big.</p>
+					<p>Still, you're at the mercy of email clients’ behavior.</p>
+				</div>
+			</section>
+		</div>
+		<div class="green">
+			<section>
+				<div>
+					<h1>Responsive</h1>
+					<p>aka “Start on desktop and use media queries for mobile.”</p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Media query</h1>
+					<p><code>@media only screen and (max-width:600px) { }</code></p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Two useful utility classes</h1>
+					<ol>
+						<li><code>.mobile-block { display:block; }</code></li>
+						<li><code>.mobile-width { width:100%; }</code></li>
+					</ol>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Responsive</h1>
+					<p>📝 <a href="https://codepen.io/hteumeuleu/pres/wvMgqKJ?editors=1000">Let’s code! (one column)</a></p>
+					<p>📝 <a href="https://codepen.io/hteumeuleu/pres/XWXNGEq?editors=1000">Let’s code! (two columns)</a></p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>WebKit's <code>&lt;th&gt;</code> quirk</h1>
+					<ul>
+						<li><a href="https://www.caniemail.com/features/html-doctype/"><code>&lt;!doctype html&gt;</code></a> on Can I email</li>
+						<li>In Quirks mode, WebKit doesn't apply <code>display:block</code> on a <code>&lt;td&gt;</code>.</li>
+						<li>Use <code>&lt;th&gt;</code> instead.</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Support for responsive</h1>
+					<ul>
+						<li><a href="https://www.caniemail.com/features/css-at-media/"><code>@media</code></a> and <a href="https://www.caniemail.com/features/html-style/"><code>&lt;style&gt;</code></a> on Can I email (looking at mobile clients)</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+		<div class="blue">
+			<section>
+				<div>
+					<h1>Fluid/hybrid</h1>
+					<p>aka “make it work without <code>&lt;style&gt;</code>”</p>
+					<ul>
+						<li><a href="https://github.com/hteumeuleu/email-guidelines#make-it-work-without-style">Email Coding Guidelines</a></li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Let’s use <code>&lt;div&gt;</code>s!</h1>
+					<ul>
+						<li><a href="https://webdesign.tutsplus.com/tutorials/creating-a-future-proof-responsive-email-without-media-queries--cms-23919">Creating a Future-Proof Responsive Email Without Media Queries</a>, by Nicole Merlin</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Fluid/hybrid</h1>
+					<p>📝 <a href="https://codepen.io/hteumeuleu/pres/pogRWeX?editors=1000">Let’s code! (one column)</a></p>
+					<p>📝 <a href="https://codepen.io/hteumeuleu/pres/XWXpeRX?editors=1000">Let’s code! (two columns)</a></p>
+				</div>
+			</section>
+		</div>
+		<div class="orange">
+			<section>
+				<div>
+					<h1>Mobile first</h1>
+					<p>aka “Start on mobile and use media queries for desktop.”</p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Media query</h1>
+					<p><code>@media only screen and (min-width:600px) { }</code></p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Conditional comments</h1>
+					<p>Use conditional comments to maintain desktop layout for <em style="font-family:Comic sans MS, sans-serif;">the Outlooks</em> on Windows.</p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Mobile first</h1>
+					<p>📝 <a href="https://codepen.io/hteumeuleu/pres/NWxdvBY?editors=1000">Let’s code! (one column)</a></p>
+					<p>📝 <a href="https://codepen.io/hteumeuleu/pres/XWXpaBw?editors=1000">Let’s code! (two columns)</a></p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Support for mobile first</h1>
+					<ul>
+						<li><a href="https://www.caniemail.com/features/css-at-media/"><code>@media</code></a> and <a href="https://www.caniemail.com/features/html-style/"><code>&lt;style&gt;</code></a> on Can I email (looking at desktop clients)</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	</main>
+	<aside>
+		<div>
+			<h1>Let’s code!</h1>
+			<ul>
+				<li>Hide content on desktop or mobile</li>
+				<li>Revert columns</li>
+			</ul>
+			<p>📝 <a href="https://codepen.io/hteumeuleu/pres/vYLgeed?editors=1000">CodePen</a></p>
+		</div>
+	</aside>
+</body>
+</html>
