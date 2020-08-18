@@ -1,9 +1,7 @@
 Formation « Intégration d'emails mobile »
 ---
 
-Coding HTML emails is a beast of its own with lots of differences from coding web pages. This workshop will make you reconsider everything you know about coding HTML emails and hopefully make you love the craft.
-
-This workshop is given with [Smashing Magazine](https://smashingconf.com/online-workshops/workshops/remi-parmentier) in 4 sessions from June 18th to June 26th 2020.
+Cette formation est donnée avec [Alsacréations]() en 4 sessions du mardi 18 août au vendredi 20 août 2020.
 
 * **Jour 1:**
 	- Bonnes pratiques.
