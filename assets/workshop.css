@@ -57,6 +57,11 @@ code {
 	font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
 
+pre code {
+	display: block;
+	padding: 1rem 2rem;
+}
+
 aside,
 section {
 	display: flex;
@@ -76,7 +81,8 @@ aside > div {
 	box-sizing: border-box;
 }
 
-section > div > img:only-child {
+section > div > img:only-child,
+section > div > a:only-child > img {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
@@ -149,10 +155,10 @@ li {
 	transition: opacity ease-in-out 0.3s;
 }
 
-ul:hover li {
+:is(ul, ol):hover li {
 	opacity: 0.5;
 }
 
-ul li:hover {
+:is(ul, ol) li:hover {
 	opacity: 1;
 }
