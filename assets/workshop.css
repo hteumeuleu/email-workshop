@@ -60,6 +60,8 @@ code {
 pre code {
 	display: block;
 	padding: 1rem 2rem;
+	line-height: 1.25;
+	white-space: pre-wrap;
 }
 
 aside,
