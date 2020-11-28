@@ -72,6 +72,13 @@ section {
 	scroll-snap-align: center;
 }
 
+@media print {
+	aside, section {
+		page-break-before: always;
+		page-break-after: always;
+	}
+}
+
 section > div,
 aside > div {
 	margin: 0 auto;
