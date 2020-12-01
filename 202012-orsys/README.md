@@ -1,23 +1,20 @@
-Formation « Intégration d'emails mobile »
+Formation « Créer efficacement des e-mails marketing responsive »
 ---
 
-Cette formation est donnée avec [Alsacréations]() en 4 sessions du mardi 18 août au vendredi 20 août 2020.
+Cette formation est donnée avec [Orsys](https://www.orsys.fr/formation-creer-efficacement-des-e-mails-marketing-responsive.html) en 2 journées du lundi 30 novembre au mardi 1er décembre 2020.
 
-* **Jour 1:**
+* **Partie 1:**
 	- Bonnes pratiques.
 	- Outlook.
-* **Jour 2:**
+* **Partie 2:**
 	- Faire des emails responsive sans responsive.
 	- Les emails responsive en pratique.
-* **Jour 3:**
+* **Partie 3:**
 	- Optimiser ses emails pour les lecteurs d'écran.
 	- Les « Dark Mode ».
-* **Jour 4:**
-	- Les bases de l'interactivité.
-	- Interactivité avancée.
 
-Tous les slides sont disponibles sur https://workshop.hteumeuleu.com/alsa.
-Les exemples présentés se trouvent dans le dossier `examples`. Mes démos codées en direct sont dans le dossier `demos`.
+Tous les slides sont disponibles sur https://workshop.hteumeuleu.com/orsys.
+Les exemples présentés se trouvent dans le dossier `examples`. Mes démos codées en direct sont dans le dossier `demos` ou [sur CodePen](https://codepen.io/collection/20fe7bb8942a0071e2dd18bd31df72c7).
 
 Voici des liens vers certains de mes travaux liés aux emails HTML :
 
