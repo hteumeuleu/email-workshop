@@ -37,10 +37,15 @@
 			<section>
 				<div>
 					<h1><code>&lt;meta name="viewport"&gt;</code></h1>
+					<p>
+						<pre><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;</code></pre>
+					</p>
 					<ul>
 						<li><a href="https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html">Configuring the viewport</a>, Apple</li>
-						<li>Useful for local dev and mirror view, not for email clients.</li>
 					</ul>
+					<p>
+						👉 Useful for local development and mirror view, but not for email clients.
+					</p>
 				</div>
 			</section>
 			<section>
@@ -49,10 +54,51 @@
 					<ul>
 						<li><a href="https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/image-size-and-resolution/">Image size and resolution</a>, Apple</li>
 						<li><a href="https://www.caniemail.com/search/?s=picture%2Bsrcset">Support for <code>&lt;picture&gt;</code> and <code>srcset</code></a> 😐</li>
-						<li>Export images at double their display size. <a href="examples/adobe.html">Example from Adobe</a></li>
 						<li><a href="https://helpx.adobe.com/photoshop/using/export-artboards-layers.html">Export assets in Photoshop</a>, Adobe</li>
 					</ul>
+					<p>👉 Export images at double their display size. <a href="examples/adobe.html">Example from Adobe</a></p>
 				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Media Queries</h1>
+<pre><code>&lt;style&gt;
+	@media only screen and (max-width:480px) {
+		.toto {
+			background:red;
+		}
+	}
+&lt;/style&gt;
+&lt;div class="toto"&gt;
+	Lorem ipsum dolor, sit amet.
+&lt;/div&gt;</code></pre>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Breakpoints</h1>
+<pre><code>/* Mobiles */
+@media only screen and (max-width:480px) {
+
+}
+
+/* Tablets */
+@media only screen and (min-width:481px) and (max-width:767px) {
+
+}
+
+/* Desktop */
+@media only screen and (min-width:768px) {
+
+}</code></pre>
+				</div>
+			</section>
+		</div>
+		<div class="white">
+			<section class="white">
+					<div>
+						<a href="https://www.opensignal.com/sites/opensignal-com/files/data/reports/global/data-2015-08/2015_08_fragmentation_report.pdf?page=4"><img src="assets/images/android-fragmentation.png" width="960" alt="Android Fragmentation" /></a>
+					</div>
 			</section>
 		</div>
 		<div class="purple">
@@ -73,7 +119,7 @@
 			<section>
 				<div>
 					<h1>Scalable</h1>
-					<p>Use <code>&lt;meta name="x-apple-disable-message-reformatting"&gt;</code> for&nbsp;Apple&nbsp;Mail in iOS.</p>
+					<p>Use <code>&lt;meta name="x-apple-disable-message-reformatting"&gt;</code> for&nbsp;Apple&nbsp;Mail in iOS. (<a href="https://github.com/hteumeuleu/email-bugs/issues/18">examples</a>)</p>
 				</div>
 			</section>
 			<section>
@@ -81,6 +127,9 @@
 					<h1>Scalable</h1>
 					<p>It’s more about design than code. Make things big.</p>
 					<p>Still, you're at the mercy of email clients’ behavior.</p>
+					<ul>
+						<li><a href="https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/#:~:text=44pt">Human Interface Guidelines</a>, Apple</li>
+					</ul>
 				</div>
 			</section>
 		</div>
@@ -94,7 +143,13 @@
 			<section>
 				<div>
 					<h1>Media query</h1>
-					<p><code>@media only screen and (max-width:600px) { }</code></p>
+					<p>
+<pre><code>@media only screen and (max-width:600px) {
+	.a-title-in-my-email {
+		color: red;
+	}
+}</code></pre>
+					</p>
 				</div>
 			</section>
 			<section>
@@ -108,9 +163,11 @@
 			</section>
 			<section>
 				<div>
-					<h1>Responsive</h1>
-					<p>📝 <a href="https://codepen.io/hteumeuleu/pres/wvMgqKJ?editors=1000">Let’s code! (one column)</a></p>
-					<p>📝 <a href="https://codepen.io/hteumeuleu/pres/XWXNGEq?editors=1000">Let’s code! (two columns)</a></p>
+					<h1>📝 Responsive Live Coding</h1>
+					<ul>
+						<li><a href="https://codepen.io/hteumeuleu/pres/wvMgqKJ?editors=1000">Let’s code! (one column)</a></li>
+						<li><a href="https://codepen.io/hteumeuleu/pres/XWXNGEq?editors=1000">Let’s code! (two columns)</a></li>
+					</ul>
 				</div>
 			</section>
 			<section>
@@ -119,7 +176,7 @@
 					<ul>
 						<li><a href="https://www.caniemail.com/features/html-doctype/"><code>&lt;!doctype html&gt;</code></a> on Can I email</li>
 						<li>In Quirks mode, WebKit doesn't apply <code>display:block</code> on a <code>&lt;td&gt;</code>.</li>
-						<li>Use <code>&lt;th&gt;</code> instead.</li>
+						<li>👉 Use <code>&lt;th&gt;</code> instead.</li>
 					</ul>
 				</div>
 			</section>
@@ -136,10 +193,7 @@
 			<section>
 				<div>
 					<h1>Fluid/hybrid</h1>
-					<p>aka “make it work without <code>&lt;style&gt;</code>”</p>
-					<ul>
-						<li><a href="https://github.com/hteumeuleu/email-guidelines#make-it-work-without-style">Email Coding Guidelines</a></li>
-					</ul>
+					<p>aka “make it work without <code>&lt;style&gt;</code>” (<a href="https://github.com/hteumeuleu/email-guidelines#make-it-work-without-style">Email Coding Guidelines</a>)</p>
 				</div>
 			</section>
 			<section>
@@ -152,9 +206,11 @@
 			</section>
 			<section>
 				<div>
-					<h1>Fluid/hybrid</h1>
-					<p>📝 <a href="https://codepen.io/hteumeuleu/pres/pogRWeX?editors=1000">Let’s code! (one column)</a></p>
-					<p>📝 <a href="https://codepen.io/hteumeuleu/pres/XWXpeRX?editors=1000">Let’s code! (two columns)</a></p>
+					<h1>📝 Fluid/hybrid Live Coding</h1>
+					<ul>
+						<li><a href="https://codepen.io/hteumeuleu/pres/pogRWeX?editors=1000">One column</a></li>
+						<li><a href="https://codepen.io/hteumeuleu/pres/XWXpeRX?editors=1000">Two columns</a></li>
+					</ul>
 				</div>
 			</section>
 		</div>
@@ -168,7 +224,13 @@
 			<section>
 				<div>
 					<h1>Media query</h1>
-					<p><code>@media only screen and (min-width:600px) { }</code></p>
+					<p>
+<pre><code>@media only screen and (min-width:600px) {
+	.a-title-in-my-email {
+		color: red;
+	}
+}</code></pre>
+					</p>
 				</div>
 			</section>
 			<section>
@@ -179,9 +241,10 @@
 			</section>
 			<section>
 				<div>
-					<h1>Mobile first</h1>
-					<p>📝 <a href="https://codepen.io/hteumeuleu/pres/NWxdvBY?editors=1000">Let’s code! (one column)</a></p>
-					<p>📝 <a href="https://codepen.io/hteumeuleu/pres/XWXpaBw?editors=1000">Let’s code! (two columns)</a></p>
+					<h1>📝 Mobile First Live Coding</h1>
+					<ul>
+						<li><a href="https://codepen.io/hteumeuleu/pres/XWXpaBw?editors=1000">Two columns</a></li>
+					</ul>
 				</div>
 			</section>
 			<section>
