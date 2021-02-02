@@ -38,6 +38,8 @@ Here are other links I may have mentioned throughout the workshop:
 * [Litmus guide to ban blue links on ios devices in email](https://www.litmus.com/blog/update-banning-blue-links-on-ios-devices-2/)
 * [EmailComb](https://emailcomb.com/light)
 * [HTML Crush](https://htmlcrush.com/light)
+* [Alter.email](https://alter.email)
+* [Parcel Email Editor](https://useparcel.com)
 * [Word 2007 HTML and CSS Rendering Capabilities in Outlook 2007](https://docs.microsoft.com/en-us/previous-versions/office/developer/office-2007/aa338201(v=office.12)?redirectedfrom=MSDN), Microsoft
 * [About conditional comments](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537512(v%3dvs.85)), Microsoft
 * [Style attributes reference](https://stigmortenmyre.no/mso/html/concepts/ofconstyletable.htm), Microsoft
