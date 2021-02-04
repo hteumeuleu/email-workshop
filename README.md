@@ -3,7 +3,7 @@ Building Modern HTML Emails Without Going Mad
 
 Coding HTML emails is a beast of its own with lots of differences from coding web pages. This workshop will make you reconsider everything you know about coding HTML emails and hopefully make you love the craft.
 
-This workshop is given with [Smashing Magazine](https://smashingconf.com/online-workshops/workshops/remi-parmentier) in 4 sessions from June 18th to June 26th 2020.
+This workshop is given with [Smashing Magazine](https://smashingconf.com/online-workshops/workshops/remi-parmentier) in 4 sessions from February 2nd to February 10th 2021.
 
 * **Day 1:**
 	- What to expect?
@@ -29,6 +29,10 @@ Here are links to some of my work related to HTML emails:
 * [Email Bugs](https://github.com/hteumeuleu/email-bugs)
 * [Email Guidelines](https://github.com/hteumeuleu/email-guidelines)
 * [Webinar with Smashing Magazine](https://www.smashingmagazine.com/2019/11/html-email-webinar/)
+
+All the CodePen live coding demos I did are visible on CodePen:
+
+* [Live coding demos on CodePen](https://codepen.io/collection/1deba64c3d7a35516102ef3836f0c607)
 
 Here are other links I may have mentioned throughout the workshop:
 
