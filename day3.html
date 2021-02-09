@@ -21,7 +21,7 @@
 					<h1>“This is for everyone”</h1>
 					<ul>
 						<li><a href="https://www.youtube.com/watch?v=4As0e4de-rI&t=1h17m45s">Tim Berners Lee at the 2012 Olympics</a></li>
-						<li><a href="https://books.google.co.uk/books?id=JTNwDwAAQBAJ&pg=PA122&lpg=PA122&dq=%22Cerf+is+hard+of+hearing+and+his+wife+is+deaf.+At+the+time,+they+couldn%27t+use+a+telephone+to+communicate.+His+work+on+email+started,+in+part,+as+a+way+for+him+and+his+wife+to+stay+connected+when+they+weren%27t+together+in+the+same+room.%22&source=bl&ots=FRb9U6iulk&sig=ACfU3U0rJ-Uy6VPnz4m_uhiK-sUnuOfshQ&hl=en&sa=X&ved=2ahUKEwjEx-iE0MfpAhXHQhUIHe_1B1kQ6AEwAHoECAEQAQ#v=onepage&q=%22Cerf%20is%20hard%20of%20hearing%20and%20his%20wife%20is%20deaf.%20At%20the%20time%2C%20they%20couldn't%20use%20a%20telephone%20to%20communicate.%20His%20work%20on%20email%20started%2C%20in%20part%2C%20as%20a%20way%20for%20him%20and%20his%20wife%20to%20stay%20connected%20when%20they%20weren't%20together%20in%20the%20same%20room.%22&f=false">Vint Cerf quote</a></li>
+						<li><a href="https://books.google.co.uk/books?id=JTNwDwAAQBAJ&pg=PA122&lpg=PA122&dq=%22Cerf+is+hard+of+hearing+and+his+wife+is+deaf.+At+the+time,+they+couldn%27t+use+a+telephone+to+communicate.+His+work+on+email+started,+in+part,+as+a+way+for+him+and+his+wife+to+stay+connected+when+they+weren%27t+together+in+the+same+room.%22&source=bl&ots=FRb9U6iulk&sig=ACfU3U0rJ-Uy6VPnz4m_uhiK-sUnuOfshQ&hl=en&sa=X&ved=2ahUKEwjEx-iE0MfpAhXHQhUIHe_1B1kQ6AEwAHoECAEQAQ#v=onepage&q=%22Cerf%20is%20hard%20of%20hearing%20and%20his%20wife%20is%20deaf.%20At%20the%20time%2C%20they%20couldn't%20use%20a%20telephone%20to%20communicate.%20His%20work%20on%20email%20started%2C%20in%20part%2C%20as%20a%20way%20for%20him%20and%20his%20wife%20to%20stay%20connected%20when%20they%20weren't%20together%20in%20the%20same%20room.%22&f=false">Vint Cerf quote</a> (<a href="/assets/images/vinton-cerf-email.png">screenshot</a>)</li>
 						<li><a href="https://webaim.org/intro/">Introduction to Web Accessibility</a></li>
 					</ul>
 				</div>
@@ -58,7 +58,8 @@
 						<li>Add content if the image is in a link (<a href="examples/spotify.html">Spotify example</a>)</li>
 						<li>Use relevant content (<a href="examples/deliveroo.html">Deliveroo example</a>)</li>
 						<li>Don’t do this! (<a href="examples/aeo.html">AEO example</a>)</li>
-						<li><a href="https://webaim.org/techniques/alttext/">WebAIM’s guide to alternative text</a></li>
+						<li><a href="https://webaim.org/techniques/alttext/">WebAIM’s guide to alternative text</a>, WebAIM</li>
+						<li><a href="https://www.w3.org/WAI/tutorials/images/decision-tree/">An <code>alt</code> Decision Tree</a>, W3C</li>
 					</ul>
 				</div>
 			</section>
@@ -97,6 +98,15 @@
 					</ul>
 				</div>
 			</section>
+			<section>
+				<div>
+					<h1>Documentation</h1>
+					<ul>
+						<li><a href="https://github.com/wilbertheinen/accessible-email-documentation">Accessible Email Documentation</a>, Wilbert Heinen</li>
+					</ul>
+				</div>
+			</section>
+			
 		</div>
 		<div class="dark">
 			<section>
@@ -104,68 +114,74 @@
 					<h1>Dark Mode</h1>
 					<ul>
 						<li><a href="https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers/">The Ultimate Guide to Dark Mode</a>, Alice Li</li>
+						<li><a href="https://litmus.wistia.com/medias/1ndj2brwsp?mkt_tok=eyJpIjoiWm1WaE0yTTVaR1kzWlRjNCIsInQiOiJlWEN6SzJ0Q2RyRUNLRGpVQ1VDalVISlRGZFNuUnY5VlBrRHBiR3JcL0FDVVU2elhGSVRQWkdMT0RyNm91QXVwdWZ0SHhSYzlucDNPQ0xITmpCSTk3TUFMWHFERUZMWld3SlVFcTlRcUk1dFlvRkJBZlc1Y3l2NlF1SGJnVzAxM0gifQ%3D%3D">Going Dark: Simple Steps to Add Dark Mode to Your Email Campaigns</a> (<a href="https://docs.google.com/presentation/d/19k2avqwcEAvuX6aYnFkzgWRrtewld894xzCLIlpkZj8/edit#slide=id.p1">slides</a>), Alice Li
 					</ul>
 				</div>
 			</section>
 			<section>
 				<div>
-					<h1>Dark Mode</h1>
+					<h1><em>3</em> Shades of Dark Mode</h1>
 					<ol>
-						<li><b>Apple Mail:</b> barely changes colors, easy to target.</li>
-						<li><b>Outlook:</b> changes colors and images, hard to target.</li>
-						<li><b>Gmail:</b> changes colors and images, untargetable.</li>
+						<li><b>Manual:</b><br />We can control the rendering via specific styles and it is well respected. <br />⚠️ Apple Mail on iOS or macOS</li>
+						<li><b>Semi-Automatic:</b><br />The email client sets colors itself, but we style still have some level of control.<br />⚠️ Outlook.com and Outlook apps on iOS and Android</li>
+						<li><b>Full-Automatic:</b> <br />The email client sets colors itself, and there's nothing we can do.<br />⚠️ Outlook on Windows, Gmail apps on iOS and Android</li>
 					</ol>
 				</div>
 			</section>
 			<section>
 				<div>
-					<h1><code>@prefers-color-scheme</code></h1>
+					<h1><em>Manual</em> Dark Mode</h1>
 					<ul>
-						<li>📝 <a href="https://codepen.io/hteumeuleu/pres/BajRmjG?editors=1000">Example on CodePen</a></li>
-						<li>First, add <code>&lt;meta name="supported-color-schemes" content="light dark"&gt;</code></li>
-						<li><a href="https://www.caniemail.com/features/css-at-media-prefers-color-scheme/">Can I email… <code>@prefers-color-scheme</code></a></li>
+						<li>⚠️ Apple Mail on iOS or macOS</li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme"><code>prefers-color-scheme</code></a> media query, MDN</li>
+						<li><a href="https://www.caniemail.com/features/css-at-media-prefers-color-scheme/"><code>prefers-color-scheme</code></a>, Can I email</li>
+						<li>In Chrome DevTools: More Tools > Rendering > Emulate CSS media feature prefers-color-scheme</li>
+						<li>Prerequisites for Apple Mail:
+							<pre><code>&lt;meta name="supported-color-schemes" content="light dark"&gt;
+&lt;style&gt;:root { supported-color-schemes: light dark; }&lt;/style&gt;</code></pre>
+						</li>
+						<li>📝 <a href="https://codepen.io/hteumeuleu/pres/d08c7756070b70de8a05ea48ff8c9dde?editors=1000">Live demo on CodePen</a></li>
 					</ul>
 				</div>
 			</section>
 			<section>
 				<div>
-					<h1>Target Outlook.com in dark mode</h1>
+					<h1><em>Semi-Automatic</em> Dark Mode</h1>
 					<ul>
-						<li><code>[data-ogsb] .foo{}</code> (via <a href="https://howtotarget.email/#68">How to target Email Clients</a>)</li>
+						<li>⚠️ Outlook.com and Outlook apps on iOS and Android</li>
+						<li>They support <code>prefers-color-scheme</code> but still automatically change colors to reach a 4.5:1 contrast ratio (<a href="https://gist.github.com/hteumeuleu/51b5a8ea95cb47e344b0cb47bc1f2289">source</a>).</li>
+						<li>Has a Lights On/Lights Off toggle. Can be targeted with <code>[data-ogsb] .foo{}</code> (via <a href="https://howtotarget.email/#68">How to target Email Clients</a>)</li>
+						<li>📝 <a href="https://codepen.io/hteumeuleu/pres/d08c7756070b70de8a05ea48ff8c9dde?editors=1000">Live demo on CodePen</a></li>
 					</ul>
 				</div>
 			</section>
 			<section>
 				<div>
-					<h1>Use background images</h1>
-					<p>Use background images to maintain background colors in dark mode where targeting is not possible.</p>
-				</div>
-			</section>
-			<section>
-				<div>
-					<h1>Outline images</h1>
+					<h1><em>Full-Automatic</em> Dark Mode</h1>
 					<ul>
-						<li><a href="https://www.hteumeuleu.com/2019/dealing-with-outlook-com-s-dark-mode/#f024">Dealing with Outlook.com’s Dark Mode</a> (in 2019)</li>
+						<li>⚠️ Outlook on Windows, Gmail apps on iOS and Android</li>
+						<li>Automatically change colors with no way to target. It can create <a href="https://github.com/hteumeuleu/email-bugs/issues/68#issuecomment-626680608">creepy renderings</a>.</li>
+						<li>You can maintain the light color by setting a background image</li>
+						<li>👉 Outline transparent images (<a href="https://www.hteumeuleu.com/2019/dealing-with-outlook-com-s-dark-mode/#f024">Dealing with Outlook.com’s Dark Mode</a>)</li>
 					</ul>
 				</div>
 			</section>
 			<section>
 				<div>
-					<h1>Gmail</h1>
+					<h1>Gmail’s Dark Mode</h1>
 					<ul>
+						<li><a href="https://proofjump.com/dark-mode-simulator/">Dark Mode Simulator</a> based on Gmail iOS</li>
 						<li>Activate <code>chrome://flags#enable-force-dark</code> in Chrome to get a close match locally (<a href="https://twitter.com/HTeuMeuLeu/status/1213019323230539777">source</a>)</li>
-						<li>Support for <code>@media (prefers-color-scheme)</code> is <a href="https://github.com/hteumeuleu/email-bugs/issues/68#issuecomment-629411633">supposedly coming</a></li>
+						<li>Support for <code>@media (prefers-color-scheme)</code> is <a href="https://github.com/hteumeuleu/email-bugs/issues/68#issuecomment-629411633">supposedly coming</a>.</li>
 					</ul>
 				</div>
 			</section>
 		</div>
 	</main>
 	<aside>
-		<section>
-			<div>
-				<h1>Questions?</h1>
-			</div>
-		</section>
+		<div>
+			<h1>End of Day 3</h1>
+		</div>
 	</aside>
 </body>
 </html>
