@@ -1,4 +1,4 @@
-Building Modern HTML Emails Without Going Mad
+Building Modern HTML Emails
 ---
 
 Coding HTML emails is a beast of its own with lots of differences from coding web pages. This workshop will make you reconsider everything you know about coding HTML emails and hopefully make you love the craft.
