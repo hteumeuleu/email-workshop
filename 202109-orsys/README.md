@@ -14,7 +14,7 @@ Cette formation est donnée avec [Orsys](https://www.orsys.fr/formation-creer-ef
 	- Les « Dark Mode ».
 
 Tous les slides sont disponibles sur https://workshop.hteumeuleu.com/orsys.
-Les exemples présentés se trouvent dans le dossier `examples`. Mes démos codées en direct sont dans le dossier `demos` ou [sur CodePen](https://codepen.io/collection/qOddMr).
+Les exemples présentés se trouvent dans le dossier `examples`. Mes démos codées en direct sont dans le dossier `demos` ou [sur CodePen](https://codepen.io/collection/eca31413e954beb83153bc9fb8670b9d).
 
 Voici des liens vers certains de mes travaux liés aux emails HTML :
 
