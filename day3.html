@@ -13,7 +13,7 @@
 			<section class="red">
 				<div>
 					<h1>Day 3</h1>
-					<p>Accessibility. And Dark Mode.</p>
+					<p>Accessibility and Dark Mode.</p>
 				</div>
 			</section>
 			<section>
@@ -75,7 +75,7 @@
 				<div>
 					<h1>Use <code>role="presentation"</code> on&nbsp;<code>&lt;table&gt;</code></h1>
 					<ul>
-						<li><a href="examples/jacadi.html">Jacadi example</a></li>
+						<li><a href="examples/alltrails.html">AllTrails example</a></li>
 					</ul>
 				</div>
 			</section>
@@ -113,9 +113,10 @@
 				<div>
 					<h1>Dark Mode</h1>
 					<ul>
-						<li><a href="https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers/">The Ultimate Guide to Dark Mode</a>, Alice Li</li>
-						<li><a href="https://litmus.wistia.com/medias/1ndj2brwsp?mkt_tok=eyJpIjoiWm1WaE0yTTVaR1kzWlRjNCIsInQiOiJlWEN6SzJ0Q2RyRUNLRGpVQ1VDalVISlRGZFNuUnY5VlBrRHBiR3JcL0FDVVU2elhGSVRQWkdMT0RyNm91QXVwdWZ0SHhSYzlucDNPQ0xITmpCSTk3TUFMWHFERUZMWld3SlVFcTlRcUk1dFlvRkJBZlc1Y3l2NlF1SGJnVzAxM0gifQ%3D%3D">Going Dark: Simple Steps to Add Dark Mode to Your Email Campaigns</a> (<a href="https://docs.google.com/presentation/d/19k2avqwcEAvuX6aYnFkzgWRrtewld894xzCLIlpkZj8/edit#slide=id.p1">slides</a>), Alice Li
+						<li>Operating Systems added Dark Mode options (<a href="https://support.apple.com/en-us/HT210332">iOS 13</a>, <a href="https://support.google.com/android/answer/9730472?hl=en">Android 10</a>, <a href="https://support.apple.com/en-us/HT208976">macOS Catalina</a>, <a href="https://support.microsoft.com/en-us/windows/change-colors-in-windows-d26ef4d6-819a-581c-1581-493cfcc005fe">Windows 10</a>).</li>
+						<li>Email Clients too! (mainly Apple Mail, Gmail and Outlook)</li>
 					</ul>
+					<p>👉 You don’t get to chose whether you support Dark Mode or not. Email Clients will do it for you.</p>
 				</div>
 			</section>
 			<section>
@@ -135,12 +136,11 @@
 						<li>⚠️ Apple Mail on iOS or macOS</li>
 						<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme"><code>prefers-color-scheme</code></a> media query, MDN</li>
 						<li><a href="https://www.caniemail.com/features/css-at-media-prefers-color-scheme/"><code>prefers-color-scheme</code></a>, Can I email</li>
-						<li>In Chrome DevTools: More Tools > Rendering > Emulate CSS media feature prefers-color-scheme</li>
 						<li>Prerequisites for Apple Mail:
 							<pre><code>&lt;meta name="supported-color-schemes" content="light dark"&gt;
 &lt;style&gt;:root { supported-color-schemes: light dark; }&lt;/style&gt;</code></pre>
 						</li>
-						<li>📝 <a href="https://codepen.io/hteumeuleu/pres/d08c7756070b70de8a05ea48ff8c9dde?editors=1000">Live demo on CodePen</a></li>
+						<li>📝 <a href="https://codepen.io/hteumeuleu/professor/e1422d31f37c239a05b3b2e582b0c200?editors=1000">Live demo on CodePen</a></li>
 					</ul>
 				</div>
 			</section>
@@ -151,7 +151,8 @@
 						<li>⚠️ Outlook.com and Outlook apps on iOS and Android</li>
 						<li>They support <code>prefers-color-scheme</code> but still automatically change colors to reach a 4.5:1 contrast ratio (<a href="https://gist.github.com/hteumeuleu/51b5a8ea95cb47e344b0cb47bc1f2289">source</a>).</li>
 						<li>Has a Lights On/Lights Off toggle. Can be targeted with <code>[data-ogsb] .foo{}</code> (via <a href="https://howtotarget.email/#68">How to target Email Clients</a>)</li>
-						<li>📝 <a href="https://codepen.io/hteumeuleu/pres/d08c7756070b70de8a05ea48ff8c9dde?editors=1000">Live demo on CodePen</a></li>
+						<li>👉 <a href="https://www.hteumeuleu.com/2021/emails-react-outlook-com-dark-mode/">Making Emails React to Outlook.com’s Dark Mode </a></li>
+						<li>📝 <a href="https://codepen.io/hteumeuleu/professor/f733a1d49a6e2c8622b31670c2f6ea14?editors=1000">Live demo on CodePen</a></li>
 					</ul>
 				</div>
 			</section>
@@ -173,6 +174,24 @@
 						<li><a href="https://proofjump.com/dark-mode-simulator/">Dark Mode Simulator</a> based on Gmail iOS</li>
 						<li>Activate <code>chrome://flags#enable-force-dark</code> in Chrome to get a close match locally (<a href="https://twitter.com/HTeuMeuLeu/status/1213019323230539777">source</a>)</li>
 						<li>Support for <code>@media (prefers-color-scheme)</code> is <a href="https://github.com/hteumeuleu/email-bugs/issues/68#issuecomment-629411633">supposedly coming</a>.</li>
+						<li>👉 <a href="https://www.hteumeuleu.com/2021/fixing-gmail-dark-mode-css-blend-modes/">Fixing Gmail’s dark mode issues with CSS Blend Modes</a></li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>The Outlooks Dark Mode Hack</h1>
+					<ul>
+						<li>👉 <a href="https://webdesign.tutsplus.com/tutorials/how-to-fix-outlook-dark-mode-problems--cms-37718">How To Fix Outlook Dark Mode Problems</a>, Nicole Merlin</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h1>Great Ressources on Dark Mode</h1>
+					<ul>
+						<li><a href="https://www.litmus.com/blog/the-ultimate-guide-to-dark-mode-for-email-marketers/">The Ultimate Guide to Dark Mode</a>, Alice Li</li>
+						<li><a href="https://litmus.wistia.com/medias/1ndj2brwsp?mkt_tok=eyJpIjoiWm1WaE0yTTVaR1kzWlRjNCIsInQiOiJlWEN6SzJ0Q2RyRUNLRGpVQ1VDalVISlRGZFNuUnY5VlBrRHBiR3JcL0FDVVU2elhGSVRQWkdMT0RyNm91QXVwdWZ0SHhSYzlucDNPQ0xITmpCSTk3TUFMWHFERUZMWld3SlVFcTlRcUk1dFlvRkJBZlc1Y3l2NlF1SGJnVzAxM0gifQ%3D%3D">Going Dark: Simple Steps to Add Dark Mode to Your Email Campaigns</a> (<a href="https://docs.google.com/presentation/d/19k2avqwcEAvuX6aYnFkzgWRrtewld894xzCLIlpkZj8/edit#slide=id.p1">slides</a>), Alice Li
 					</ul>
 				</div>
 			</section>
