@@ -17,7 +17,7 @@ Cette formation est donnée avec [Alsacréations](https://formations.alsacreatio
 	- Interactivité avancée.
 
 Tous les slides sont disponibles sur https://workshop.hteumeuleu.com/alsa.
-Les exemples présentés se trouvent dans le dossier `examples`. Mes démos codées en direct sont dans le dossier `demos`.
+Les exemples présentés se trouvent dans le dossier `examples`. Mes démos codées en direct sont dans le dossier `demos` ou [sur CodePen](https://codepen.io/collection/6a6f81cff9fab345ffad1de14bfadd32).
 
 Voici des liens vers certains de mes travaux liés aux emails HTML :
 
