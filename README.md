@@ -3,7 +3,7 @@ Building Modern HTML Emails
 
 Coding HTML emails is a beast of its own with lots of differences from coding web pages. This workshop will make you reconsider everything you know about coding HTML emails and hopefully make you love the craft.
 
-This workshop is given with [Smashing Magazine](https://smashingconf.com/online-workshops/workshops/remi-parmentier) in 4 sessions from February 2nd to February 10th 2021.
+This workshop is given with [Smashing Magazine](https://smashingconf.com/online-workshops/workshops/remi-parmentier-mar/) in 4 sessions from February 24th to March 4th 2022.
 
 * **Day 1:**
 	- What to expect?
@@ -32,13 +32,12 @@ Here are links to some of my work related to HTML emails:
 
 All the CodePen live coding demos I did are visible on CodePen:
 
-* [Live coding demos on CodePen](https://codepen.io/collection/1deba64c3d7a35516102ef3836f0c607)
+* [Live coding demos on CodePen](https://codepen.io/collection/waodLd/13f428987a8cf9ef67b5f524d1f45eb1)
 
 Here are other links I may have mentioned throughout the workshop:
 
 * [DoWebsitesNeedToLookExactlyTheSameInEveryBrowser.com](http://dowebsitesneedtolookexactlythesameineverybrowser.com)
 * [DoEmailsHaveToLookTheSameInEveryClient.com](http://doemailshavetolookthesameineveryclient.com)
-* [SendTest.email](https://sendtest.email)
 * [Litmus guide to ban blue links on ios devices in email](https://www.litmus.com/blog/update-banning-blue-links-on-ios-devices-2/)
 * [EmailComb](https://emailcomb.com/light)
 * [HTML Crush](https://htmlcrush.com/light)
