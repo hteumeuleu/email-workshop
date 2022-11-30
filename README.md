@@ -3,7 +3,7 @@ Building Modern HTML Emails
 
 Coding HTML emails is a beast of its own with lots of differences from coding web pages. This workshop will make you reconsider everything you know about coding HTML emails and hopefully make you love the craft.
 
-This workshop is given with [Smashing Magazine](https://smashingconf.com/online-workshops/workshops/remi-parmentier-mar/) in 4 sessions from February 24th to March 4th 2022.
+This workshop is given with [Smashing Magazine](https://smashingconf.com/online-workshops/workshops/remi-parmentier-mar/) in 4 sessions from November 30th to December 8th 2022.
 
 * **Day 1:**
 	- What to expect?
