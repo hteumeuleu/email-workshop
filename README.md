@@ -32,7 +32,7 @@ Here are links to some of my work related to HTML emails:
 
 All the CodePen live coding demos I did are visible on CodePen:
 
-* [Live coding demos on CodePen](https://codepen.io/collection/waodLd/13f428987a8cf9ef67b5f524d1f45eb1)
+* [Live coding demos on CodePen](https://codepen.io/collection/qOpZae)
 
 Here are other links I may have mentioned throughout the workshop:
 
