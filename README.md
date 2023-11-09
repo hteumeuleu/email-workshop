@@ -3,7 +3,7 @@ Building Modern HTML Emails
 
 Coding HTML emails is a beast of its own with lots of differences from coding web pages. This workshop will make you reconsider everything you know about coding HTML emails and hopefully make you love the craft.
 
-This workshop is given with [Smashing Magazine](https://smashingconf.com/online-workshops/workshops/remi-parmentier-mar/) in 4 sessions from November 30th to December 8th 2022.
+This workshop is given with [Smashing Magazine](https://smashingconf.com/online-workshops/workshops/remi-parmentier-mar/) in 4 sessions.
 
 * **Day 1:**
 	- What to expect?
@@ -24,7 +24,7 @@ Examples I've shown from other brands are in the `examples` folder. My live codi
 Here are links to some of my work related to HTML emails:
 
 * [HTeuMeuLeu.com](https://www.hteumeuleu.com)
-* [@HTeuMeuLeu](https://www.twitter.com/HTeuMeuLeu) on Twitter
+* [@HTeuMeuLeu](https://www.mastodon.social/@HTeuMeuLeu) on Mastodon
 * [Can I email…](https://www.caniemail.com)
 * [Email Bugs](https://github.com/hteumeuleu/email-bugs)
 * [Email Guidelines](https://github.com/hteumeuleu/email-guidelines)
